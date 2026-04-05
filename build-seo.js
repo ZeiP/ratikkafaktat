@@ -19,66 +19,47 @@ if (!fs.existsSync(dataFile)) {
 const data = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
 const baseHtml = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8');
 
+const languages = [
+  {
+    code: 'fi',
+    locale: 'fi_FI',
+    siteTitle: '100 ratikkafaktaa',
+    siteHeadingHtml: '100 ratikka<span class="logo-highlight">faktaa</span>',
+    homeDescription: 'Turun ratikasta liikkuu vaihtoehtoisia totuuksia – me jaamme faktoja. Vapaaehtoisvoimin. Ei kaupungin, raitiotieallianssin tai grynderien ylläpitämä.',
+    factPrefix: 'Fakta',
+    footerHtml: 'Faktat on lainattu Instagramin <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer" aria-label="100 ratikkafaktaa (avautuu uuteen ikkunaan)">100 ratikkafaktaa</a> -tililtä.'
+  },
+  {
+    code: 'en',
+    locale: 'en_US',
+    siteTitle: '100 tram facts',
+    siteHeadingHtml: '100 tram <span class="logo-highlight">facts</span>',
+    homeDescription: 'Facts about Turku tramway.',
+    factPrefix: 'Fact',
+    footerHtml: 'Facts are sourced from the Instagram account <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer" aria-label="100 ratikkafaktaa (opens in a new window)">100 ratikkafaktaa</a>.'
+  },
+  {
+    code: 'sv',
+    locale: 'sv_SE',
+    siteTitle: '100 spårvägsfakta',
+    siteHeadingHtml: '100 spårvägs<span class="logo-highlight">fakta</span>',
+    homeDescription: 'Fakta om Åbo spårväg.',
+    factPrefix: 'Fakta',
+    footerHtml: 'Fakta är hämtade från Instagram-kontot <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer" aria-label="100 ratikkafaktaa (öppnas i ett nytt fönster)">100 ratikkafaktaa</a>.'
+  }
+];
+
 // Also copy data.json to dist so client JS can fetch it on navigation
 fs.copyFileSync(dataFile, path.join(distDir, 'data.json'));
 
-data.forEach(fact => {
-  const dirPath = path.join(distDir, 'fakta', String(fact.number));
-  fs.mkdirSync(dirPath, { recursive: true });
-  const detailContent = fact.longContent || fact.content;
-  const detailContentHtml = renderParagraphsHtml(detailContent);
+function buildAlternateLinks(pathSuffix) {
+  return languages
+    .map(lang => `<link rel="alternate" hreflang="${lang.code}" href="https://ratikkafaktat.fi/${lang.code}/${pathSuffix}" />`)
+    .join('\n    ');
+}
 
-  let seoTitle = `Fakta ${fact.number}: ${fact.title}`;
-  let seoDesc = fact.content.replace(/"/g, '&quot;');
-  
-  let seoTags = `
-    <title>${seoTitle}</title>
-    <meta name="description" content="${seoDesc}" />
-    <meta name="keywords" content="Raitiovaunu, Ratikka, Faktoja, Turku, Joukkoliikenne, ${escapeHtml(fact.title).replace(/,/g, '')}" />
-    <meta property="og:title" content="${seoTitle}" />
-    <meta property="og:description" content="${seoDesc}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:locale" content="fi_FI" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="${seoTitle}" />
-    <meta name="twitter:description" content="${seoDesc}" />
-    <meta name="geo.region" content="FI" />
-    <meta name="geo.placename" content="Turku" />
-    <meta name="geo.position" content="60.4518;22.2666" />
-    <meta name="ICBM" content="60.4518, 22.2666" />
-    <link id="canonical-link" rel="canonical" href="https://ratikkafaktat.fi/fakta/${fact.number}" />
-    <link rel="alternate" hreflang="fi" href="https://ratikkafaktat.fi/fakta/${fact.number}" />
-    <meta property="og:url" content="https://ratikkafaktat.fi/fakta/${fact.number}" />
-    <script id="schema-base" type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Article",
-          "@id": "https://ratikkafaktat.fi/fakta/${fact.number}/#article",
-          "headline": "${seoTitle}",
-          "articleBody": "${seoDesc}",
-          "url": "https://ratikkafaktat.fi/fakta/${fact.number}",
-          "publisher": {
-            "@id": "https://ratikkafaktat.fi/#organization"
-          }
-        }
-      ]
-    }
-    </script>
-  `;
-
-  // Pre-render list just in case (though it hides it)
-  // Pre-render detail
-  let resourcesHtml = fact.resources?.map(r => `
-    <li>
-      <a href="${escapeHtml(r.url)}" class="resource-link" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(r.title)} (avautuu uuteen ikkunaan)">
-        ${escapeHtml(r.title)}
-      </a>
-    </li>
-  `).join('') || '<li>Ei lisätietolinkkejä.</li>';
-  
-  let cleanBaseHtml = baseHtml
+function cleanSeoTags(html) {
+  return html
     .replace(/<title>.*?<\/title>/g, '')
     .replace(/<meta name="description".*?>/g, '')
     .replace(/<meta name="keywords".*?>/g, '')
@@ -90,25 +71,121 @@ data.forEach(fact => {
     .replace(/<link rel="alternate" hreflang.*?>/g, '')
     .replace(/<meta property="og:url".*?>/g, '')
     .replace(/<script id="schema-base".*?<\/script>/sg, '');
+}
 
-  let pageHtml = cleanBaseHtml
-    .replace('<!-- VITE_INJECT_SEO -->', seoTags)
-    .replace('<div id="view-list" class="view-section active">', '<div id="view-list" class="view-section">')
-    .replace('<div id="view-detail" class="view-section detail-view">', '<div id="view-detail" class="view-section detail-view active">')
-    .replace('<h1 id="detail-title"></h1>', `<h1 id="detail-title">${escapeHtml(fact.title)}</h1>`)
-    .replace('<!-- VITE_INJECT_DETAIL_NUMBER -->', `#${fact.number}`)
-    .replace('<!-- VITE_INJECT_DETAIL_CONTENT -->', detailContentHtml)
-    .replace('<!-- VITE_INJECT_DETAIL_LINKS -->', resourcesHtml);
+languages.forEach(lang => {
+  const dirPath = path.join(distDir, lang.code);
+  fs.mkdirSync(dirPath, { recursive: true });
 
-  // Fix asset paths because we are 2 levels deep (/fakta/1)
-  // Change href="/assets/..." to href="/assets/..." Since we use absolute paths in Vite (with base='/') it should be fine.
-  // Wait, if it's hosted in a subdirectory (like github pages without custom domain), base might need to be resolved.
-  // Assuming it's root domain:
+  const indexSeoTags = `
+    <title>${lang.siteTitle}</title>
+    <meta name="description" content="${escapeHtml(lang.homeDescription)}" />
+    <meta name="keywords" content="Raitiovaunu, Ratikka, Faktoja, Turku, Joukkoliikenne" />
+    <meta property="og:title" content="${lang.siteTitle}" />
+    <meta property="og:description" content="${escapeHtml(lang.homeDescription)}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="${lang.locale}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="${lang.siteTitle}" />
+    <meta name="twitter:description" content="${escapeHtml(lang.homeDescription)}" />
+    <meta name="geo.region" content="FI" />
+    <meta name="geo.placename" content="Turku" />
+    <meta name="geo.position" content="60.4518;22.2666" />
+    <meta name="ICBM" content="60.4518, 22.2666" />
+    <link id="canonical-link" rel="canonical" href="https://ratikkafaktat.fi/${lang.code}/" />
+    ${buildAlternateLinks('')}
+    <meta property="og:url" content="https://ratikkafaktat.fi/${lang.code}/" />
+  `;
 
-  fs.writeFileSync(path.join(dirPath, 'index.html'), pageHtml);
+  const cleanBaseHtml = cleanSeoTags(baseHtml).replace('<html lang="fi">', `<html lang="${lang.code}">`);
+  const langIndexHtml = cleanBaseHtml
+    .replace('<!-- VITE_INJECT_SEO -->', indexSeoTags)
+    .replace('<h1 id="site-name">100 ratikka<span class="logo-highlight">faktaa</span></h1>', `<h1 id="site-name">${lang.siteHeadingHtml}</h1>`)
+    .replace(/<p id="footer-text">[\s\S]*?<\/p>/, `<p id="footer-text">${lang.footerHtml}</p>`);
+  fs.writeFileSync(path.join(dirPath, 'index.html'), langIndexHtml);
 });
 
-console.log(`Successfully generated ${data.length} static SEO HTML pages!`);
+data.forEach(fact => {
+  languages.forEach(lang => {
+    const localized = getLocalizedFact(fact, lang.code);
+    const detailContent = lang.code === 'fi' ? (fact.longContent || localized.content) : localized.content;
+    const detailContentHtml = renderParagraphsHtml(detailContent);
+    const dirPath = path.join(distDir, lang.code, 'fakta', String(fact.number));
+    fs.mkdirSync(dirPath, { recursive: true });
+
+    const seoTitle = `${lang.factPrefix} ${fact.number}: ${localized.title}`;
+    const seoDesc = localized.content.replace(/"/g, '&quot;');
+    const factAlternateLinks = languages
+      .map(l => `<link rel="alternate" hreflang="${l.code}" href="https://ratikkafaktat.fi/${l.code}/fakta/${fact.number}" />`)
+      .join('\n    ');
+
+    const seoTags = `
+    <title>${seoTitle}</title>
+    <meta name="description" content="${seoDesc}" />
+    <meta name="keywords" content="Raitiovaunu, Ratikka, Faktoja, Turku, Joukkoliikenne, ${escapeHtml(localized.title).replace(/,/g, '')}" />
+    <meta property="og:title" content="${seoTitle}" />
+    <meta property="og:description" content="${seoDesc}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="${lang.locale}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="${seoTitle}" />
+    <meta name="twitter:description" content="${seoDesc}" />
+    <meta name="geo.region" content="FI" />
+    <meta name="geo.placename" content="Turku" />
+    <meta name="geo.position" content="60.4518;22.2666" />
+    <meta name="ICBM" content="60.4518, 22.2666" />
+    <link id="canonical-link" rel="canonical" href="https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}" />
+    ${factAlternateLinks}
+    <meta property="og:url" content="https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}" />
+    <script id="schema-base" type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}/#article",
+          "headline": "${seoTitle}",
+          "articleBody": "${seoDesc}",
+          "url": "https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}",
+          "publisher": {
+            "@id": "https://ratikkafaktat.fi/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+  `;
+
+    const resourcesHtml = fact.resources?.map(r => `
+    <li>
+      <a href="${escapeHtml(r.url)}" class="resource-link" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(r.title)} (avautuu uuteen ikkunaan)">
+        ${escapeHtml(r.title)}
+      </a>
+    </li>
+  `).join('') || '<li>Ei lisätietolinkkejä.</li>';
+
+    const cleanBaseHtml = cleanSeoTags(baseHtml).replace('<html lang="fi">', `<html lang="${lang.code}">`);
+
+    const pageHtml = cleanBaseHtml
+      .replace('<!-- VITE_INJECT_SEO -->', seoTags)
+      .replace('<div id="view-list" class="view-section active">', '<div id="view-list" class="view-section">')
+      .replace('<div id="view-detail" class="view-section detail-view">', '<div id="view-detail" class="view-section detail-view active">')
+      .replace('href="/" id="back-btn"', `href="/${lang.code}/" id="back-btn"`)
+      .replace('id="lang-fi" href="/fi/"', `id="lang-fi" href="/fi/fakta/${fact.number}"`)
+      .replace('id="lang-en" href="/en/"', `id="lang-en" href="/en/fakta/${fact.number}"`)
+      .replace('id="lang-sv" href="/sv/"', `id="lang-sv" href="/sv/fakta/${fact.number}"`)
+      .replace('<h1 id="site-name">100 ratikka<span class="logo-highlight">faktaa</span></h1>', `<h1 id="site-name">${lang.siteHeadingHtml}</h1>`)
+      .replace(/<p id="footer-text">[\s\S]*?<\/p>/, `<p id="footer-text">${lang.footerHtml}</p>`)
+      .replace('<h1 id="detail-title"></h1>', `<h1 id="detail-title">${escapeHtml(localized.title)}</h1>`)
+      .replace('<!-- VITE_INJECT_DETAIL_NUMBER -->', `#${fact.number}`)
+      .replace('<!-- VITE_INJECT_DETAIL_CONTENT -->', detailContentHtml)
+      .replace('<!-- VITE_INJECT_DETAIL_LINKS -->', resourcesHtml);
+
+    fs.writeFileSync(path.join(dirPath, 'index.html'), pageHtml);
+  });
+});
+
+console.log(`Successfully generated ${data.length * languages.length} static SEO HTML pages!`);
 
 function escapeHtml(unsafe) {
     return unsafe
@@ -117,6 +194,15 @@ function escapeHtml(unsafe) {
          .replace(/>/g, "&gt;")
          .replace(/"/g, "&quot;")
          .replace(/'/g, "&#039;");
+}
+
+function getLocalizedFact(fact, languageCode) {
+  const fi = fact?.translations?.fi || {};
+  const localized = fact?.translations?.[languageCode] || {};
+  return {
+    title: localized.title || fi.title || '',
+    content: localized.content || fi.content || ''
+  };
 }
 
 function renderParagraphsHtml(text = '') {
@@ -150,14 +236,26 @@ let sitemapUrls = `  <url>
     <priority>1.0</priority>
   </url>`;
 
-data.forEach(fact => {
+languages.forEach(lang => {
   sitemapUrls += `
   <url>
-    <loc>https://ratikkafaktat.fi/fakta/${fact.number}</loc>
+    <loc>https://ratikkafaktat.fi/${lang.code}/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>`;
+});
+
+data.forEach(fact => {
+  languages.forEach(lang => {
+    sitemapUrls += `
+  <url>
+    <loc>https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>`;
+  });
 });
 
 const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -171,10 +269,10 @@ console.log('Generated sitemap.xml');
 // Generate FAQ JSON-LD and inject into index.html
 const faqItems = data.map(fact => ({
   "@type": "Question",
-  "name": `Fakta ${fact.number}: ${fact.title}`,
+  "name": `Fakta ${fact.number}: ${fact?.translations?.fi?.title || ''}`,
   "acceptedAnswer": {
     "@type": "Answer",
-    "text": fact.content
+    "text": fact?.translations?.fi?.content || ''
   }
 }));
 

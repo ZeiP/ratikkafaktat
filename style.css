@@ -59,6 +59,40 @@ body {
   top: 0;
 }
 
+.language-switcher {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 110;
+  display: inline-flex;
+  gap: 0.25rem;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 0.25rem;
+  backdrop-filter: blur(4px);
+}
+
+.language-switcher a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  height: 2rem;
+  padding: 0 0.6rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--text-main);
+}
+
+.language-switcher a.active,
+.language-switcher a[aria-current="true"] {
+  background: var(--tram-yellow);
+  color: var(--text-on-yellow);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

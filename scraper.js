@@ -28,6 +28,83 @@ function parseLongDescriptionsFromFile(filePath) {
   return map;
 }
 
+function parseLocalizedFactsFromFile(filePath) {
+  const map = {};
+  if (!fs.existsSync(filePath)) return map;
+
+  const lines = fs.readFileSync(filePath, 'utf-8').split(/\r?\n/);
+  let current = null;
+
+  function commitCurrent() {
+    if (!current || Number.isNaN(current.number)) return;
+    const content = stripEmojis(current.descriptionLines.join(' ').replace(/\s+/g, ' ').trim());
+    map[current.number] = {
+      title: stripEmojis(current.title),
+      content
+    };
+  }
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    const headingMatch = line.match(/^(\d+)\.\s+(.+)$/);
+    if (headingMatch) {
+      commitCurrent();
+      current = {
+        number: Number.parseInt(headingMatch[1], 10),
+        title: headingMatch[2].trim(),
+        descriptionLines: []
+      };
+      continue;
+    }
+
+    if (!current) {
+      continue;
+    }
+
+    if (line) {
+      current.descriptionLines.push(line);
+    }
+  }
+
+  commitCurrent();
+  return map;
+}
+
+function normalizeResources(resources) {
+  if (!Array.isArray(resources)) return [];
+  return resources
+    .filter(r => r && typeof r === 'object')
+    .map(r => ({
+      title: String(r.title || '').trim(),
+      url: String(r.url || '').trim()
+    }))
+    .filter(r => r.title && r.url);
+}
+
+function normalizeFactForOutput(fact) {
+  return {
+    id: fact.id,
+    number: Number.parseInt(fact.number, 10),
+    longContent: fact.longContent || null,
+    link: fact.link || 'https://linktr.ee/sataratikkafaktaa',
+    resources: normalizeResources(fact.resources),
+    translations: {
+      fi: {
+        title: stripEmojis(fact?.translations?.fi?.title || ''),
+        content: stripEmojis(fact?.translations?.fi?.content || '')
+      },
+      en: {
+        title: stripEmojis(fact?.translations?.en?.title || ''),
+        content: stripEmojis(fact?.translations?.en?.content || '')
+      },
+      sv: {
+        title: stripEmojis(fact?.translations?.sv?.title || ''),
+        content: stripEmojis(fact?.translations?.sv?.content || '')
+      }
+    }
+  };
+}
+
 async function fetchLinktreeData() {
   console.log('Fetching Linktree data...');
   return new Promise((resolve, reject) => {
@@ -62,6 +139,8 @@ async function fetchLinktreeData() {
         
         // Parse long descriptions from faktatekstit.txt
         const textFactMap = parseLongDescriptionsFromFile('./faktatekstit.txt');
+        const enFactMap = parseLocalizedFactsFromFile('./faktat-en.txt');
+        const svFactMap = parseLocalizedFactsFromFile('./faktat-sv.txt');
         
         const existingFacts = [];
         const existingFactsByNumber = {};
@@ -94,7 +173,7 @@ async function fetchLinktreeData() {
           
           let shortTitle = titleParts.length > 1 ? titleParts.slice(1).join(':').trim() : group.title;
           const existingFact = existingFactsByNumber[number];
-          const content = stripEmojis(existingFact?.content || shortTitle);
+          const content = stripEmojis(existingFact?.translations?.fi?.content || existingFact?.content || shortTitle);
           
           let longContent = existingFact?.longContent || null;
           // Merge text from faktatekstit.txt if found as long description
@@ -103,6 +182,26 @@ async function fetchLinktreeData() {
           } else if (longContent) {
             longContent = stripEmojis(longContent);
           }
+
+          const existingTranslations = existingFact?.translations || {};
+          const fiTranslation = existingTranslations.fi || {};
+          const enTranslation = existingTranslations.en || {};
+          const svTranslation = existingTranslations.sv || {};
+
+          const translations = {
+            fi: {
+              title: stripEmojis(fiTranslation.title || shortTitle),
+              content: stripEmojis(fiTranslation.content || content)
+            },
+            en: {
+              title: enFactMap[number]?.title || enTranslation.title || shortTitle,
+              content: enFactMap[number]?.content || stripEmojis(enTranslation.content || content)
+            },
+            sv: {
+              title: svFactMap[number]?.title || svTranslation.title || shortTitle,
+              content: svFactMap[number]?.content || stripEmojis(svTranslation.content || content)
+            }
+          };
           
           const factLinks = items
             .filter(i => i.parent && i.parent.id === group.id)
@@ -111,14 +210,12 @@ async function fetchLinktreeData() {
           const scrapedFact = {
             id: group.id,
             number: number,
-            title: shortTitle,
-            content: content,
             longContent: longContent,
+            translations,
             link: `https://linktr.ee/sataratikkafaktaa`,
             resources: factLinks
           };
 
-          // Keep any manual/custom fields already present in data.json
           return {
             ...(existingFact || {}),
             ...scrapedFact,
@@ -137,8 +234,21 @@ async function fetchLinktreeData() {
           facts.push({
             ...existingFact,
             number,
-            content: stripEmojis(existingFact.content || ''),
-            longContent: existingFact.longContent ? stripEmojis(existingFact.longContent) : existingFact.longContent
+            longContent: existingFact.longContent ? stripEmojis(existingFact.longContent) : existingFact.longContent,
+            translations: {
+              fi: {
+                title: stripEmojis(existingFact?.translations?.fi?.title || existingFact.title || ''),
+                content: stripEmojis(existingFact?.translations?.fi?.content || existingFact.content || '')
+              },
+              en: {
+                title: enFactMap[number]?.title || existingFact?.translations?.en?.title || existingFact.title || '',
+                content: enFactMap[number]?.content || stripEmojis(existingFact?.translations?.en?.content || existingFact.content || '')
+              },
+              sv: {
+                title: svFactMap[number]?.title || existingFact?.translations?.sv?.title || existingFact.title || '',
+                content: svFactMap[number]?.content || stripEmojis(existingFact?.translations?.sv?.content || existingFact.content || '')
+              }
+            }
           });
         });
 
@@ -148,9 +258,14 @@ async function fetchLinktreeData() {
         }
 
         facts.sort((a, b) => b.number - a.number); // newest first usually makes sense
-        
-        fs.writeFileSync('./data.json', JSON.stringify(facts, null, 2));
-        console.log(`Saved ${facts.length} facts to data.json`);
+
+        const normalizedFacts = facts
+          .map(normalizeFactForOutput)
+          .filter(f => Number.isInteger(f.number) && f.number >= 0)
+          .sort((a, b) => b.number - a.number);
+
+        fs.writeFileSync('./data.json', JSON.stringify(normalizedFacts, null, 2));
+        console.log(`Saved ${normalizedFacts.length} facts to data.json`);
         resolve();
       });
     }).on('error', reject);
