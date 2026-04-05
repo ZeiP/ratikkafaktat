@@ -1,0 +1,18 @@
+{
+  "name": "ratikkafaktat",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node node_modules/vite/bin/vite.js",
+    "prebuild": "node scraper.js",
+    "build": "node node_modules/vite/bin/vite.js build && node build-seo.js",
+    "preview": "node node_modules/vite/bin/vite.js preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.1"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}
