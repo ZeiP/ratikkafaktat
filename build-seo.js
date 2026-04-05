@@ -25,6 +25,8 @@ fs.copyFileSync(dataFile, path.join(distDir, 'data.json'));
 data.forEach(fact => {
   const dirPath = path.join(distDir, 'fakta', String(fact.number));
   fs.mkdirSync(dirPath, { recursive: true });
+  const detailContent = fact.longContent || fact.content;
+  const detailContentHtml = renderParagraphsHtml(detailContent);
 
   let seoTitle = `Fakta ${fact.number}: ${fact.title}`;
   let seoDesc = fact.content.replace(/"/g, '&quot;');
@@ -95,7 +97,7 @@ data.forEach(fact => {
     .replace('<div id="view-detail" class="view-section detail-view">', '<div id="view-detail" class="view-section detail-view active">')
     .replace('<h1 id="detail-title"></h1>', `<h1 id="detail-title">${escapeHtml(fact.title)}</h1>`)
     .replace('<!-- VITE_INJECT_DETAIL_NUMBER -->', `#${fact.number}`)
-    .replace('<!-- VITE_INJECT_DETAIL_CONTENT -->', escapeHtml(fact.content))
+    .replace('<!-- VITE_INJECT_DETAIL_CONTENT -->', detailContentHtml)
     .replace('<!-- VITE_INJECT_DETAIL_LINKS -->', resourcesHtml);
 
   // Fix asset paths because we are 2 levels deep (/fakta/1)
@@ -115,6 +117,19 @@ function escapeHtml(unsafe) {
          .replace(/>/g, "&gt;")
          .replace(/"/g, "&quot;")
          .replace(/'/g, "&#039;");
+}
+
+function renderParagraphsHtml(text = '') {
+  const paragraphs = text
+    .split(/\n\s*\n/g)
+    .map(p => p.trim())
+    .filter(Boolean);
+
+  if (paragraphs.length === 0) {
+    return '';
+  }
+
+  return paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
 }
 
 // Generate robots.txt

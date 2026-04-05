@@ -354,6 +354,14 @@ h2 {
   font-weight: 400;
 }
 
+.detail-content p {
+  margin: 0 0 1.2rem;
+}
+
+.detail-content p:last-child {
+  margin-bottom: 0;
+}
+
 /* Links Section */
 .links-section {
   background: var(--surface-color);

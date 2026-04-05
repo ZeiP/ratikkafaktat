@@ -123,6 +123,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   function showDetail(fact) {
     viewList.style.display = 'none';
     viewDetail.classList.add('active');
+    const detailText = fact.longContent || fact.content;
+    const detailHtml = renderParagraphsHtml(detailText);
     
     let fullTitle = `Fakta ${fact.number}: ${fact.title}`;
     document.title = fullTitle;
@@ -133,10 +135,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     updateLink('canonical-link', `https://ratikkafaktat.fi/fakta/${fact.number}`);
 
     // Only update DOM if not already pre-rendered accurately
-    if (!detailContent.innerHTML.includes(fact.content)) {
+    if (normalizeWhitespace(detailContent.textContent) !== normalizeWhitespace(detailText)) {
       detailNumber.textContent = `#${fact.number}`;
       document.getElementById('detail-title').textContent = fact.title;
-      detailContent.textContent = fact.content;
+      detailContent.innerHTML = detailHtml;
       
       resourcesList.innerHTML = '';
       if (fact.resources && fact.resources.length > 0) {
@@ -193,3 +195,29 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (el) el.setAttribute('href', href);
   }
 });
+
+function normalizeWhitespace(text = '') {
+  return text.replace(/\s+/g, ' ').trim();
+}
+
+function escapeHtml(unsafe = '') {
+  return unsafe
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function renderParagraphsHtml(text = '') {
+  const paragraphs = text
+    .split(/\n\s*\n/g)
+    .map(p => p.trim())
+    .filter(Boolean);
+
+  if (paragraphs.length === 0) {
+    return '';
+  }
+
+  return paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
+}
