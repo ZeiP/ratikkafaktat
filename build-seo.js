@@ -280,7 +280,7 @@ const today = new Date().toISOString().split('T')[0];
 let sitemapUrls = `  <url>
     <loc>https://ratikkafaktat.fi/</loc>
     <lastmod>${today}</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>`;
 
@@ -289,7 +289,7 @@ languages.forEach(lang => {
   <url>
     <loc>https://ratikkafaktat.fi/${lang.code}/</loc>
     <lastmod>${today}</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>`;
 });
