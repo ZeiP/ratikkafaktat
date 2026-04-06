@@ -7,13 +7,13 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';" />
     <meta name="description" content="Turun ratikasta liikkuu vaihtoehtoisia totuuksia – me jaamme faktoja. Vapaaehtoisvoimin. Ei kaupungin, raitiotieallianssin tai grynderien ylläpitämä." />
     <meta name="keywords" content="Raitiovaunu, Ratikka, Faktoja, Turku, Joukkoliikenne" />
-    <meta property="og:title" content="100 ratikkafaktaa" />
+    <meta property="og:title" content="Sata ratikkafaktaa" />
     <meta property="og:description" content="Turun ratikasta liikkuu vaihtoehtoisia totuuksia – me jaamme faktoja. Vapaaehtoisvoimin. Ei kaupungin, raitiotieallianssin tai grynderien ylläpitämä." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ratikkafaktat.fi/" />
     <meta property="og:locale" content="fi_FI" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="100 ratikkafaktaa" />
+    <meta name="twitter:title" content="Sata ratikkafaktaa" />
     <meta name="twitter:description" content="Turun ratikasta liikkuu vaihtoehtoisia totuuksia – me jaamme faktoja. Vapaaehtoisvoimin. Ei kaupungin, raitiotieallianssin tai grynderien ylläpitämä." />
     <meta name="geo.region" content="FI" />
     <meta name="geo.placename" content="Turku" />
@@ -29,13 +29,13 @@
           "@type": "WebSite",
           "@id": "https://ratikkafaktat.fi/#website",
           "url": "https://ratikkafaktat.fi/",
-          "name": "100 ratikkafaktaa",
+          "name": "Sata ratikkafaktaa",
           "description": "Turun ratikasta liikkuu vaihtoehtoisia totuuksia – me jaamme faktoja. Vapaaehtoisvoimin. Ei kaupungin, raitiotieallianssin tai grynderien ylläpitämä."
         },
         {
           "@type": "Organization",
           "@id": "https://ratikkafaktat.fi/#organization",
-          "name": "100 ratikkafaktaa",
+          "name": "Sata ratikkafaktaa",
           "url": "https://ratikkafaktat.fi/",
           "sameAs": [
             "https://instagram.com/sataratikkafaktaa"
@@ -47,7 +47,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>100 ratikkafaktaa</title>
+    <title>Sata ratikkafaktaa</title>
     <!-- VITE_INJECT_SEO -->
     <link rel="stylesheet" href="/style.css">
   </head>
@@ -59,16 +59,19 @@
       <a id="lang-sv" href="/sv/" lang="sv">SV</a>
     </nav>
 
+    <header class="hero">
+      <div class="hero-content">
+        <h1 id="site-name">Sata <span style="white-space: nowrap;">ratikka<span class="logo-highlight">faktaa</span></span></h1>
+      </div>
+      <div class="hero-bg-gradient" aria-hidden="true"></div>
+    </header>
+
     <!-- LIST VIEW -->
     <div id="view-list" class="view-section active">
-      <header class="hero">
-        <div class="hero-content">
-          <h1 id="site-name">100 ratikka<span class="logo-highlight">faktaa</span></h1>
-        </div>
-        <div class="hero-bg-gradient" aria-hidden="true"></div>
-      </header>
-
       <main id="main-content" class="container">
+        <p class="intro-text" style="text-align: center; max-width: 600px; margin: 0 auto 3rem auto; line-height: 1.6; color: var(--text-main);">
+          <!-- VITE_INJECT_INTRO -->
+        </p>
         <section aria-label="Kaikki faktat">
           <ul id="facts-grid" class="facts-grid" role="list">
             <!-- Facts injected via JS or pre-rendered -->

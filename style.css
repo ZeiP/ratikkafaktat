@@ -135,7 +135,7 @@ h2 {
 /* Hero Section */
 .hero {
   position: relative;
-  padding: 8rem 2rem 6rem;
+  padding: 8rem 2rem 3rem;
   text-align: center;
   overflow: hidden;
   display: flex;
@@ -151,7 +151,7 @@ h2 {
 }
 
 .hero h1 {
-  font-size: clamp(3rem, 8vw, 6rem);
+  font-size: clamp(2.2rem, 8vw, 6rem);
   font-weight: 800;
   letter-spacing: -0.03em;
   margin-bottom: 1rem;
@@ -346,13 +346,21 @@ h2 {
   color: var(--text-main);
 }
 
+#view-list {
+  display: none;
+}
+
+#view-list.active {
+  display: block;
+}
+
 /* Detail View Layout */
 .detail-view {
   display: none;
   background: var(--bg-color);
   max-width: 800px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 1.5rem 2rem 4rem 2rem;
   animation: backdropIn var(--transition-smooth) forwards;
 }
 

@@ -23,11 +23,13 @@ const languages = [
   {
     code: 'fi',
     locale: 'fi_FI',
-    siteTitle: '100 ratikkafaktaa',
-    siteHeadingHtml: '100 ratikka<span class="logo-highlight">faktaa</span>',
+    siteTitle: 'Sata ratikkafaktaa',
+    siteHeadingHtml: 'Sata <span style="white-space: nowrap;">ratikka<span class="logo-highlight">faktaa</span></span>',
     homeDescription: 'Turun ratikasta liikkuu vaihtoehtoisia totuuksia – me jaamme faktoja. Vapaaehtoisvoimin. Ei kaupungin, raitiotieallianssin tai grynderien ylläpitämä.',
+    introHtml: 'Turun ratikasta liikkuu vaihtoehtoisia totuuksia – me jaamme faktoja. Lainattu <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer">@sataratikkafaktaa</a>-tililtä, jota ylläpidetään vapaaehtoisvoimin, ei kaupungin, raitiotieallianssin tai grynderien toimesta.',
     factPrefix: 'Fakta',
-    footerHtml: 'Faktat on lainattu Instagramin <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer" aria-label="100 ratikkafaktaa (avautuu uuteen ikkunaan)">100 ratikkafaktaa</a> -tililtä.'
+    backText: 'Takaisin etusivulle',
+    footerHtml: 'Faktat on lainattu Instagramin <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer" aria-label="Sata ratikkafaktaa (avautuu uuteen ikkunaan)">Sata ratikkafaktaa</a> -tililtä.'
   },
   {
     code: 'en',
@@ -35,17 +37,21 @@ const languages = [
     siteTitle: '100 tram facts',
     siteHeadingHtml: '100 tram <span class="logo-highlight">facts</span>',
     homeDescription: 'Facts about Turku tramway.',
+    introHtml: 'Alternative truths circulate about the Turku tramway – we share facts. Sourced from the <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer">@sataratikkafaktaa</a> account, maintained by volunteers, not by the city, the tramway alliance, or developers.',
     factPrefix: 'Fact',
-    footerHtml: 'Facts are sourced from the Instagram account <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer" aria-label="100 ratikkafaktaa (opens in a new window)">100 ratikkafaktaa</a>.'
+    backText: 'Back to front page',
+    footerHtml: 'Facts are sourced from the Instagram account <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer" aria-label="Sata ratikkafaktaa (opens in a new window)">Sata ratikkafaktaa</a>.'
   },
   {
     code: 'sv',
     locale: 'sv_SE',
     siteTitle: '100 spårvägsfakta',
-    siteHeadingHtml: '100 spårvägs<span class="logo-highlight">fakta</span>',
+    siteHeadingHtml: '100 <span style="white-space: nowrap;">spårvägs<span class="logo-highlight">fakta</span></span>',
     homeDescription: 'Fakta om Åbo spårväg.',
+    introHtml: 'Alternativa sanningar cirkulerar om Åbo spårväg – vi delar fakta. Hämtade från kontot <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer">@sataratikkafaktaa</a>, som drivs ideellt, inte av staden, spårvägsalliansen eller byggherrar.',
     factPrefix: 'Fakta',
-    footerHtml: 'Fakta är hämtade från Instagram-kontot <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer" aria-label="100 ratikkafaktaa (öppnas i ett nytt fönster)">100 ratikkafaktaa</a>.'
+    backText: 'Tillbaka till framsidan',
+    footerHtml: 'Fakta är hämtade från Instagram-kontot <a href="https://instagram.com/sataratikkafaktaa" target="_blank" rel="noopener noreferrer" aria-label="Sata ratikkafaktaa (öppnas i ett nytt fönster)">Sata ratikkafaktaa</a>.'
   }
 ];
 
@@ -97,11 +103,33 @@ languages.forEach(lang => {
     <meta property="og:url" content="https://ratikkafaktat.fi/${lang.code}/" />
   `;
 
-  const cleanBaseHtml = cleanSeoTags(baseHtml).replace('<html lang="fi">', `<html lang="${lang.code}">`);
+  const gridHtml = data.map((fact, i) => {
+    const localized = getLocalizedFact(fact, lang.code);
+    const delay = i * 0.03;
+    return `
+      <li style="opacity: 0; transform: translateY(20px); animation: backdropIn 0.5s ease forwards ${delay}s;">
+        <a class="fact-card-wrapper" href="/${lang.code}/fakta/${fact.number}">
+          <div class="fact-card" role="article">
+            <div class="fact-date">${lang.factPrefix} #${fact.number}</div>
+            <h3 class="fact-title">${escapeHtml(localized.title)}</h3>
+            <p class="fact-excerpt">${escapeHtml(localized.content)}</p>
+            <div class="fact-number" aria-hidden="true">${fact.number}</div>
+          </div>
+        </a>
+      </li>
+    `;
+  }).join('');
+
+  const cleanBaseHtml = cleanSeoTags(baseHtml)
+    .replace('<html lang="fi">', `<html lang="${lang.code}">`)
+    .replace(`id="lang-${lang.code}" href="/${lang.code}/"`, `id="lang-${lang.code}" href="/${lang.code}/" class="active" aria-current="true"`);
+
   const langIndexHtml = cleanBaseHtml
     .replace('<!-- VITE_INJECT_SEO -->', indexSeoTags)
-    .replace('<h1 id="site-name">100 ratikka<span class="logo-highlight">faktaa</span></h1>', `<h1 id="site-name">${lang.siteHeadingHtml}</h1>`)
-    .replace(/<p id="footer-text">[\s\S]*?<\/p>/, `<p id="footer-text">${lang.footerHtml}</p>`);
+    .replace('<h1 id="site-name">Sata <span style="white-space: nowrap;">ratikka<span class="logo-highlight">faktaa</span></span></h1>', `<h1 id="site-name">${lang.siteHeadingHtml}</h1>`)
+    .replace(/<p id="footer-text">[\s\S]*?<\/p>/, `<p id="footer-text">${lang.footerHtml}</p>`)
+    .replace('<!-- VITE_INJECT_INTRO -->', lang.introHtml)
+    .replace('<!-- VITE_INJECT_LIST -->', gridHtml);
   fs.writeFileSync(path.join(dirPath, 'index.html'), langIndexHtml);
 });
 
@@ -164,6 +192,23 @@ data.forEach(fact => {
     </li>
   `).join('') || '<li>Ei lisätietolinkkejä.</li>';
 
+    const gridHtml = data.map((f, i) => {
+      const loc = getLocalizedFact(f, lang.code);
+      const delay = i * 0.03;
+      return `
+        <li style="opacity: 0; transform: translateY(20px); animation: backdropIn 0.5s ease forwards ${delay}s;">
+          <a class="fact-card-wrapper" href="/${lang.code}/fakta/${f.number}">
+            <div class="fact-card" role="article">
+              <div class="fact-date">${lang.factPrefix} #${f.number}</div>
+              <h3 class="fact-title">${escapeHtml(loc.title)}</h3>
+              <p class="fact-excerpt">${escapeHtml(loc.content)}</p>
+              <div class="fact-number" aria-hidden="true">${f.number}</div>
+            </div>
+          </a>
+        </li>
+      `;
+    }).join('');
+
     const cleanBaseHtml = cleanSeoTags(baseHtml).replace('<html lang="fi">', `<html lang="${lang.code}">`);
 
     const pageHtml = cleanBaseHtml
@@ -171,15 +216,18 @@ data.forEach(fact => {
       .replace('<div id="view-list" class="view-section active">', '<div id="view-list" class="view-section">')
       .replace('<div id="view-detail" class="view-section detail-view">', '<div id="view-detail" class="view-section detail-view active">')
       .replace('href="/" id="back-btn"', `href="/${lang.code}/" id="back-btn"`)
+      .replace('Takaisin etusivulle', lang.backText)
+      .replace(`id="lang-${lang.code}" href="/${lang.code}/"`, `id="lang-${lang.code}" href="/${lang.code}/fakta/${fact.number}" class="active" aria-current="true"`)
       .replace('id="lang-fi" href="/fi/"', `id="lang-fi" href="/fi/fakta/${fact.number}"`)
       .replace('id="lang-en" href="/en/"', `id="lang-en" href="/en/fakta/${fact.number}"`)
       .replace('id="lang-sv" href="/sv/"', `id="lang-sv" href="/sv/fakta/${fact.number}"`)
-      .replace('<h1 id="site-name">100 ratikka<span class="logo-highlight">faktaa</span></h1>', `<h1 id="site-name">${lang.siteHeadingHtml}</h1>`)
+      .replace('<h1 id="site-name">Sata <span style="white-space: nowrap;">ratikka<span class="logo-highlight">faktaa</span></span></h1>', `<h1 id="site-name">${lang.siteHeadingHtml}</h1>`)
       .replace(/<p id="footer-text">[\s\S]*?<\/p>/, `<p id="footer-text">${lang.footerHtml}</p>`)
       .replace('<h1 id="detail-title"></h1>', `<h1 id="detail-title">${escapeHtml(localized.title)}</h1>`)
       .replace('<!-- VITE_INJECT_DETAIL_NUMBER -->', `#${fact.number}`)
       .replace('<!-- VITE_INJECT_DETAIL_CONTENT -->', detailContentHtml)
-      .replace('<!-- VITE_INJECT_DETAIL_LINKS -->', resourcesHtml);
+      .replace('<!-- VITE_INJECT_DETAIL_LINKS -->', resourcesHtml)
+      .replace('<!-- VITE_INJECT_LIST -->', gridHtml);
 
     fs.writeFileSync(path.join(dirPath, 'index.html'), pageHtml);
   });

@@ -1,5 +1,43 @@
 [
   {
+    "id": 1775462681714,
+    "number": 41,
+    "longContent": "Suurin osa Fölin joukkoliikenteestä hoidetaan jatkossakin busseilla, vaikka kuormitetuin runkolinja siirtyy raiteille. Raitiotie korvaa bussiliikennettä vain vilkkaimmalla osuudella, ja muilla reiteillä bussit jatkavat raitiotietä täydentäen.\n\nLisäksi raitiotieliikenne tuo uusia työpaikkoja esimerkiksi kuljettajille, kunnossapitoon ja liikenteen ohjaukseen.\n\nTampereella raitiotien käyttöönotto ei ole vähentänyt bussiliikennettä kokonaisuutena. Kuljettajien tarve on kasvanut, ei pienentynyt.\n\nTampereen seudun joukkoliikenteessä bussien ajosuorite on kasvanut raitiotien käyttöönotosta huolimatta:\n– linjakilometrit: 22,1 milj. (2019) → 23,9 milj. (2025)\n– linjatunnit: 1,02 milj. → 1,11 milj.\n\nTaustalla on väestön ja joukkoliikenteen käytön kasvu. Osa liikenteestä on siirtynyt raiteille, mutta kokonaiskasvu on lisännyt tarvetta myös bussiliikenteelle.\n\nLinja-autonkuljettajista on ajoittain ollut pulaa Suomessa. Suuremmat yksikkökoot helpottavat tilannetta, kun sama matkustajamäärä voidaan kuljettaa pienemmällä kuljettajamäärällä.\n\nMyös Turussa kuljettajatarve on näkynyt käytännössä. Runkolinjaston käynnistämisen yhteydessä Föli teki yhteistyötä liikennöitsijöiden kanssa riittävän kuljettajamäärän varmistamiseksi.\n\nRaitiotie tehostaa liikennettä omalla reitillään, mutta muualla bussiliikennettä tarvitaan edelleen. Kasvun myötä usein jopa enemmän.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Nysse vuosikertomus 2019",
+        "url": "https://www.nysse.fi/media/julkaisut/vuosikertomukset/vuosikertomus_2019_tampereenseudunjoukkoliikenne.pdf"
+      },
+      {
+        "title": "Nysse vuosikertomus 2025",
+        "url": "https://www.nysse.fi/media/julkaisut/vuosikertomukset/nysse-vuosikertomus2025.pdf"
+      },
+      {
+        "title": "AKT-lehti – kuljettajapula",
+        "url": "https://www.aktlehti.fi/tyoelama/kuljettajapulassa-uusi-kuljettaja-saa-liki-valita-tyopaikan/"
+      },
+      {
+        "title": "Yle – Suuria kaupunkeja vaivaa kuljettajapula",
+        "url": "https://yle.fi/a/74-20045028"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Jäävätkö linja-autonkuljettajat työttömiksi?",
+        "content": "Suurin osa Fölin joukkoliikenteestä hoidetaan jatkossakin busseilla, vaikka kuormitetuin runkolinja siirtyy raiteille. Raitiotie korvaa bussiliikennettä vain vilkkaimmalla osuudella, ja muilla reiteillä bussit jatkavat raitiotietä täydentäen."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
     "id": 554463920,
     "number": 40,
     "longContent": "Raitiotiehankkeen kustannukset eivät synny kerralla, vaan jakautuvat usealle vuodelle. Rakentaminen etenee vaiheittain, ja investoinnit ajoittuvat koko rakentamisajalle.\n\nTämä tarkoittaa, että myös kaupungin rahoitusosuus ja siihen liittyvä lainanotto jakautuvat usealle vuodelle, eivätkä kohdistu yhteen yksittäiseen vuoteen. Vaiheittainen toteutus helpottaa investoinnin sovittamista kaupungin talouden kokonaisuuteen.\n\nKatuja, kunnallistekniikkaa ja liikennejärjestelyjä joudutaan uudistamaan joka tapauksessa tulevina vuosina. Raitiotiehankkeessa nämä uudistukset toteutetaan samassa yhteydessä.\n\nVastaavissa hankkeissa, kuten Tampereen raitiotiessä, rahoitusta on saatu Euroopan investointipankilta. EIP:n lainat ovat tyypillisesti pitkäikäisiä ja usein hieman markkinatasoa edullisempia.",
@@ -1341,7 +1379,7 @@
     "translations": {
       "fi": {
         "title": "Caenin raitiotie",
-        "content": "Caenin raitiotie"
+        "content": "Caenissa vuonna 2019 avattu raitiotie korvasi teknisten ongelmien vuoksi käytöstä poistetun kumipyöräisen TVR-järjestelmän."
       },
       "en": {
         "title": "Caenin raitiotie",
