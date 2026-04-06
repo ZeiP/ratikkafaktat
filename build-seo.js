@@ -58,6 +58,23 @@ const languages = [
 // Also copy data.json to dist so client JS can fetch it on navigation
 fs.copyFileSync(dataFile, path.join(distDir, 'data.json'));
 
+// Replace root index.html with a redirect to /fi/
+const rootRedirectHtml = `<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0;url=/fi/" />
+    <link rel="canonical" href="https://ratikkafaktat.fi/fi/" />
+    <title>Sata ratikkafaktaa</title>
+  </head>
+  <body>
+    <p>Siirrytään sivulle <a href="/fi/">/fi/</a>...</p>
+  </body>
+</html>
+`;
+fs.writeFileSync(path.join(distDir, 'index.html'), rootRedirectHtml);
+console.log('Root index.html replaced with redirect to /fi/');
+
 function buildAlternateLinks(pathSuffix) {
   return languages
     .map(lang => `<link rel="alternate" hreflang="${lang.code}" href="https://ratikkafaktat.fi/${lang.code}/${pathSuffix}" />`)
@@ -330,9 +347,9 @@ const faqSchema = JSON.stringify({
   "mainEntity": faqItems
 }, null, 2);
 
-const indexPath = path.join(distDir, 'index.html');
+const indexPath = path.join(distDir, 'fi', 'index.html');
 let indexHtml = fs.readFileSync(indexPath, 'utf-8');
 const faqScriptTag = `<script type="application/ld+json">${faqSchema}</script>`;
 indexHtml = indexHtml.replace('</head>', `${faqScriptTag}\n  </head>`);
 fs.writeFileSync(indexPath, indexHtml);
-console.log('Injected FAQ schema into index.html');
+console.log('Injected FAQ schema into fi/index.html');
