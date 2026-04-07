@@ -1,5 +1,47 @@
 [
   {
+    "id": 1775554093223,
+    "number": 42,
+    "longContent": "Turun raitiotiehanketta on valmisteltu vaiheittain päätösten mukaisesti.\n\n14.12.2009 kaupunginvaltuusto teki periaatepäätöksen runkolinjastosta ja linjasi, että vilkkaimmille reiteille toteutetaan myöhemmin raitiotie.\n\nEnsimmäinen raitiotien yleissuunnitelma valmistui vuonna 2015 ja sitä tarkennettiin vuonna 2019. Suunnitelmassa määriteltiin raitiotien teknisiä ja liikenteellisiä perusratkaisuja sekä arvioitiin kustannuksia ja vaikutuksia.\n\n20.4.2020 valtuusto hyväksyi raitiotien yleissuunnitelman.\n\n11.1.2021 kaupunginhallitus teki raitiotien jatkovalmistelua koskevat linjaukset. Samalla päätettiin tehdyn vertailu perusteella keskittää valmistelu raitiotiehen.\n\n2.10.2023 kaupunginhallitus päätti, että yleissuunnitelman pohjalta edetään toteutussuunnitteluun.\n\n18.8.2025 kaupunginhallitus päätti päivittää aiemmat superbussiselvitykset ennen lopullista päätöstä. Samalla rakentamispäätöksen valmistelu siirtyi vuoteen 2026.\n\nPäätöksenteko on edennyt vaiheittain: selvityksistä yleissuunnitelmaan, siitä jatkovalmisteluun ja edelleen kohti mahdollista toteutuspäätöstä.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Yle – Turun joukkoliikennelinjaus (2009)",
+        "url": "https://yle.fi/a/3-6015129"
+      },
+      {
+        "title": "Turun kaupunginvaltuusto 20.4.2020 – raitiotien yleissuunnitelma",
+        "url": "https://paatokset.turku.fi/kaupunginvaltuusto/poytakirja/4079179/pykala/51/"
+      },
+      {
+        "title": "Turun kaupunginhallitus 11.1.2021 – raitiotien jatkovalmistelua koskevat linjaukset",
+        "url": "https://paatokset.turku.fi/kaupunginhallitus/poytakirja/4256414/pykala/5/"
+      },
+      {
+        "title": "Turun kaupunginhallitus 2.10.2023 – toteutussuunnitteluun eteneminen",
+        "url": "https://paatokset.turku.fi/kaupunginhallitus/poytakirja/4947709/pykala/356/"
+      },
+      {
+        "title": "Turun kaupunginhallitus 18.8.2025 – superbussiselvitysten päivitys",
+        "url": "https://paatokset.turku.fi/kaupunginhallitus/poytakirja/5260488/pykala/273/"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotiehanke on edennyt vaiheittain päätöksenteossa",
+        "content": "Turun raitiotiehanketta on valmisteltu vaiheittain päätösten mukaisesti."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
     "id": 1775462681714,
     "number": 41,
     "longContent": "Suurin osa Fölin joukkoliikenteestä hoidetaan jatkossakin busseilla, vaikka kuormitetuin runkolinja siirtyy raiteille. Raitiotie korvaa bussiliikennettä vain vilkkaimmalla osuudella, ja muilla reiteillä bussit jatkavat raitiotietä täydentäen.\n\nLisäksi raitiotieliikenne tuo uusia työpaikkoja esimerkiksi kuljettajille, kunnossapitoon ja liikenteen ohjaukseen.\n\nTampereella raitiotien käyttöönotto ei ole vähentänyt bussiliikennettä kokonaisuutena. Kuljettajien tarve on kasvanut, ei pienentynyt.\n\nTampereen seudun joukkoliikenteessä bussien ajosuorite on kasvanut raitiotien käyttöönotosta huolimatta:\n– linjakilometrit: 22,1 milj. (2019) → 23,9 milj. (2025)\n– linjatunnit: 1,02 milj. → 1,11 milj.\n\nTaustalla on väestön ja joukkoliikenteen käytön kasvu. Osa liikenteestä on siirtynyt raiteille, mutta kokonaiskasvu on lisännyt tarvetta myös bussiliikenteelle.\n\nLinja-autonkuljettajista on ajoittain ollut pulaa Suomessa. Suuremmat yksikkökoot helpottavat tilannetta, kun sama matkustajamäärä voidaan kuljettaa pienemmällä kuljettajamäärällä.\n\nMyös Turussa kuljettajatarve on näkynyt käytännössä. Runkolinjaston käynnistämisen yhteydessä Föli teki yhteistyötä liikennöitsijöiden kanssa riittävän kuljettajamäärän varmistamiseksi.\n\nRaitiotie tehostaa liikennettä omalla reitillään, mutta muualla bussiliikennettä tarvitaan edelleen. Kasvun myötä usein jopa enemmän.",
