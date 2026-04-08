@@ -1,5 +1,35 @@
 [
   {
+    "id": 1775634102565,
+    "number": 43,
+    "longContent": "Raitiotie on osa kaupunkitilaa, ei siitä erillinen elementti.\n\nTurussa raitiotie suunnitellaan ympäristöön sopivaksi. Ratkaisuissa huomioidaan kadun luonne, rakennuskanta ja kaupunkikuvan erityispiirteet.\n\nYdinkeskustassa ja läheisillä kaduilla, kuten Eerikinkadulla, Uudenmaankadulla ja Hämeenkadulla, raitiotie toteutetaan osin ruskealla nupukivellä. Materiaalivalinnoilla voidaan sovittaa rata ympäristöön ja korostaa kaupunkikuvan historiallisia piirteitä.\n\nToisaalla käytetään viherraiteita, joissa kiskot sijoitetaan nurmen tai muun kasvillisuuden keskelle. Ne pehmentävät katutilaa, vähentävät melua ja sitovat hulevesiä.\n\nRaitiotien rakentamisen yhteydessä katuja uudistetaan kokonaisuutena. Samalla parannetaan jalankulun olosuhteita, lisätään puita ja selkeytetään katutilaa.\n\nRatkaisut eivät ole samanlaisia koko reitillä, vaan ne suunnitellaan paikan mukaan. Näin raitiotie voi tukea sekä modernia että historiallista kaupunkiympäristöä.\n\nKuvassa on Aarhus, jossa raitiotien kivetys on sovitettu vieressä olevan vanhan tullirakennuksen tyyliin.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Turun raitiotien toteutussuunnitelma",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Turun raitiotie – vaikutusten arviointi ja ympäristösuunnittelu",
+        "url": "https://turunraitiotie.fi/etusivu/suunnitelmat-ja-selvitykset/vaikutusarvioinnit/"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie osaksi kaupunkikuvaa",
+        "content": "Raitiotie on osa kaupunkitilaa, ei siitä erillinen elementti."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
     "id": 1775554093223,
     "number": 42,
     "longContent": "Turun raitiotiehanketta on valmisteltu vaiheittain päätösten mukaisesti.\n\n14.12.2009 kaupunginvaltuusto teki periaatepäätöksen runkolinjastosta ja linjasi, että vilkkaimmille reiteille toteutetaan myöhemmin raitiotie.\n\nEnsimmäinen raitiotien yleissuunnitelma valmistui vuonna 2015 ja sitä tarkennettiin vuonna 2019. Suunnitelmassa määriteltiin raitiotien teknisiä ja liikenteellisiä perusratkaisuja sekä arvioitiin kustannuksia ja vaikutuksia.\n\n20.4.2020 valtuusto hyväksyi raitiotien yleissuunnitelman.\n\n11.1.2021 kaupunginhallitus teki raitiotien jatkovalmistelua koskevat linjaukset. Samalla päätettiin tehdyn vertailu perusteella keskittää valmistelu raitiotiehen.\n\n2.10.2023 kaupunginhallitus päätti, että yleissuunnitelman pohjalta edetään toteutussuunnitteluun.\n\n18.8.2025 kaupunginhallitus päätti päivittää aiemmat superbussiselvitykset ennen lopullista päätöstä. Samalla rakentamispäätöksen valmistelu siirtyi vuoteen 2026.\n\nPäätöksenteko on edennyt vaiheittain: selvityksistä yleissuunnitelmaan, siitä jatkovalmisteluun ja edelleen kohti mahdollista toteutuspäätöstä.",
