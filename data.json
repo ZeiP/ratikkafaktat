@@ -1,8 +1,118 @@
 [
   {
+    "id": 1775982605375,
+    "number": 47,
+    "longContent": "Naapurikunnat eivät lähteneet mukaan Turun raitiotien ensimmäiseen vaiheeseen, mutta kiinnostusta raitiotiehen on silti seudullisesti.\n\nTurun raitiotiestä pyydettiin lausunnot naapurikunnilta, kuten Kaarinalta, Raisiolta ja Naantalilta. Lausuntojen perusteella suhtautuminen on pääosin neutraalia tai varovaisen myönteistä.\n\nYleissuunnitelmavaiheessa Raisio oli mukana potentiaalisena ensimmäisen vaiheen haarana. Toteutus olisi kuitenkin edellyttänyt kahdelta kunnalta suuren hankkeen päätöksiä samassa aikataulussa, mikä tekee etenemisestä haastavaa. Liittyminen myöhemmin on ympäryskunnille selkeämpi vaihtoehto.\n\nTurun tavoiteverkossa raitiotietä on tarkasteltu myös seudullisena kokonaisuutena, jossa linjoja voisi jatkua esimerkiksi Raisioon ja Kaarinaan.\n\nSama kehityspolku on nähty muuallakin. Tampere rakensi raitiotien ensimmäisen vaiheen kaupungin sisällä, ja järjestelmää laajennetaan nyt Pirkkalan suuntaan. Ylöjärven suuntaan tehdään parhaillaan tarkempia suunnitelmia ja seudullisessa yleissuunnitelmassa on mukana myös Kangasala.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Naapurikuntien lausunnot Turun raitiotiestä",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/03/Lausunnot-kokonaisuudessaan.pdf"
+      },
+      {
+        "title": "Raitiotien vaikutusten arviointi (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf"
+      },
+      {
+        "title": "Tampereen seudullinen raitiotiesuunnittelu",
+        "url": "https://www.tampereenratikka.fi/suunnittelu/seudullinen-yleissuunnitelma/"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Myytti: Naapurikunnat eivät halua raitiotietä",
+        "content": "Naapurikunnat eivät lähteneet mukaan Turun raitiotien ensimmäiseen vaiheeseen, mutta kiinnostusta raitiotiehen on silti seudullisesti."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1775982527035,
+    "number": 46,
+    "longContent": "Raitiovaunun kapasiteetti vastaa noin kolmea telibussia. Suuremmilla ajoneuvoilla sama määrä matkustajia voidaan kuljettaa pienemmällä ajoneuvomäärällä.\n\nNykyisin esimerkiksi runkolinja 3, sen variantti 3A sekä ruuhkalinja 27/27A kulkevat osittain samaa reittiä keskustaan. Kauppatorilla ne käyttävät eri pysäkkejä, mikä tekee matkustamisesta epäselvää. Yhteensä näillä vuoroilla ajetaan 16 vuoroa arkiruuhkatunnissa. Linjan 27/27A lisääminen liikenteeseen maksaa noin 900 000 euroa vuodessa.\n\nRaitiotie tarjoaa yhden selkeän linjan ja pysäkin suuntaansa. Tämä helpottaa matkustamista ja vähentää bussien määrää keskustan kaduilla.\n\nJos raitiotieverkko myöhemmin laajenee, voidaan vastaavasti vähentää myös muista suunnista keskustaan tulevaa bussiliikennettä ja vähentää ruuhka-ajan liikennöinnin päällekkäisyyttä.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Turun raitiotien toteutussuunnitelma",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Raitiotien vaikutusten arviointi (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf"
+      },
+      {
+        "title": "Fölin aikataulu- ja reittitiedot (runkolinjat 3, 3A ja 27/27A)",
+        "url": "https://cms.foli.fi/sites/default/files/documents-2026-01/linja-3-3a_2.pdf"
+      },
+      {
+        "title": "Fölin aikataulu- ja reittitiedot (runkolinjat 3, 3A ja 27/27A)",
+        "url": "https://cms.foli.fi/sites/default/files/documents-2026-01/linjat-27-ja-27a_0.pdf"
+      },
+      {
+        "title": "Linjojen 27/27A lisäkustannus (kaupunginhallitus)",
+        "url": "https://paatokset.turku.fi/kaupunginhallitus/poytakirja/5361130/pykala/66/"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie vähentää bussiliikennettä keskustassa.",
+        "content": "Raitiovaunun kapasiteetti vastaa noin kolmea telibussia. Suuremmilla ajoneuvoilla sama määrä matkustajia voidaan kuljettaa pienemmällä ajoneuvomäärällä."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1775982468667,
+    "number": 45,
+    "longContent": "Mahdollinen päätös koskee ensimmäistä linjaa sataman, keskustan ja Varissuon välillä. Se toimii itsenäisesti eikä edellytä jatkorakentamista.\n\nPitkän suunnittelun aikana on tarkasteltu myös muita mahdollisia haaroja. Vaikutusten arvioinnin tavoiteverkossa on mukana useita suuntia: Raisio, Runosmäki, Hirvensalo, Pansio ja Kaarina.\n\nOsasta haaroista on tehty yleissuunnitelmavaiheessa suunnittelua varsin pitkälle, paikoin asemapiirustuksiin saakka. Näissä kuvissa reitit esitetään suurpiirteisinä visualisointeina, mutta tarkempia suunnitelmia on nähtävissä vuosien 2015 ja 2019 yleissuunnitelmissa.\n\nTarkat toteutussuunnitelmat on kuitenkin laadittu päätösten mukaisesti vain valitusta ensimmäisestä vaiheesta. Mahdollisista jatkovaiheista päätetään erikseen, ja niitä voidaan edistää tarvittaessa nopeasti olemassa olevan suunnittelun pohjalta.\n\nJatkovaiheiden suunnittelussa tarkentuisivat sekä pienemmät ratkaisut että suuremmat linjaukset: missä järjestyksessä verkostoa rakennetaan, haluavatko naapurikunnat mukaan, mikä on esimerkiksi Kaarinan haaralle toimivin reitti ja onko Runosmäen linjaa tarpeen jatkaa lentoasemalle asti.\n\nRaitiotie ei siis ole “kaikki kerralla” -hanke. Ensimmäinen vaihe tuo hyödyt sellaisenaan, ja jatkoa voidaan toteuttaa myöhemmin, jos siihen nähdään tarvetta.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Aiemmat suunnitelmat ja selvitykset",
+        "url": "https://turunraitiotie.fi/etusivu/suunnitelmat-ja-selvitykset/aiemmat-suunnitelmat-ja-selvitykset/"
+      },
+      {
+        "title": "Raitiotien vaikutusten arviointi (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotiehankkeen-vaikutukset-ja-superbussiselvitys_turun-kaupunki.pdf"
+      },
+      {
+        "title": "Turun merikaupunkivisio (2024)",
+        "url": "https://www.turku.fi/sites/default/files/document/20240820_turun_merikaupunki_visio_kirja_spreads-compressed.pdf"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotietä voidaan laajentaa vaiheittain.",
+        "content": "Mahdollinen päätös koskee ensimmäistä linjaa sataman, keskustan ja Varissuon välillä. Se toimii itsenäisesti eikä edellytä jatkorakentamista."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
     "id": 1775678554686,
     "number": 44,
-    "longContent": "Suomessa on pitkä kokemus raitiotieoperoinnista talviolosuhteissa. Kuvissa on Raide-Jokeri Oulunkylässä ja Tampereen raitiotietä talvella. ❄️🌨️🔧🇫🇮\n\nTurun raitiotie suunnitellaan toimimaan myös talvella. Vaihteet pidetään sulina lämmityksellä ja lumenpoisto hoidetaan erillisellä kalustolla. Yhteiset joukkoliikenneväylät pidetään kunnossa sekä raitiovaunuliikennettä että busseja varten.\n\nTurussa reittisuunnittelussa on vältetty myös kadunvarsipysäköintiä raitiotiereitin varrella, jolloin talvisesta väärinpysäköinnistä ei synny ongelmia niin helposti.\n\nMyös pysäkit pidetään toimivina talvella. Laiturit ja kulkuyhteydet kuuluvat normaaliin kunnossapitoon, jotta liikkuminen on sujuvaa ja turvallista. Raitiovaunu pysähtyy vuodenajasta riippumatta tarkasti laiturin kohdalle.\n\nSuomessa raitiotiet toimivat talviolosuhteissa normaalisti, ja kunnossapitoon on vakiintuneet käytännöt. Raitiotie ei ole herkempi häiriöille kuin bussiliikenne. Omalla väylällään kulkeva raitiotie toimii usein liikenteessä varmemmin.\n\n📊📚 Lähteet:\n\nTurun raitiotien toteutussuunnitelma\nhttps://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf\n\nRaitiotien vaikutusten arviointi (2026)\nhttps://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf",
+    "longContent": "Suomessa on pitkä kokemus raitiotieoperoinnista talviolosuhteissa. Kuvissa on Raide-Jokeri Oulunkylässä ja Tampereen raitiotietä talvella. ❄️🌨️🔧🇫🇮\n\nTurun raitiotie suunnitellaan toimimaan myös talvella. Vaihteet pidetään sulina lämmityksellä ja lumenpoisto hoidetaan erillisellä kalustolla. Yhteiset joukkoliikenneväylät pidetään kunnossa sekä raitiovaunuliikennettä että busseja varten.\n\nTurussa reittisuunnittelussa on vältetty myös kadunvarsipysäköintiä raitiotiereitin varrella, jolloin talvisesta väärinpysäköinnistä ei synny ongelmia niin helposti.\n\nMyös pysäkit pidetään toimivina talvella. Laiturit ja kulkuyhteydet kuuluvat normaaliin kunnossapitoon, jotta liikkuminen on sujuvaa ja turvallista. Raitiovaunu pysähtyy vuodenajasta riippumatta tarkasti laiturin kohdalle.\n\nSuomessa raitiotiet toimivat talviolosuhteissa normaalisti, ja kunnossapitoon on vakiintuneet käytännöt. Raitiotie ei ole herkempi häiriöille kuin bussiliikenne. Omalla väylällään kulkeva raitiotie toimii usein liikenteessä varmemmin.\n\nLisätietoja:\n\nTurun raitiotien toteutussuunnitelma\nhttps://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf\n\nRaitiotien vaikutusten arviointi (2026)\nhttps://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf",
     "link": "https://ratikkafaktat.fi",
     "resources": [],
     "translations": {
