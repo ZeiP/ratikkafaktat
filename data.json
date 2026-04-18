@@ -1,5 +1,318 @@
 [
   {
+    "id": 1776512189154,
+    "number": 59,
+    "longContent": "Allianssimallissa tilaajat, suunnittelijat ja rakentajat muodostavat yhteisen organisaation, joka vastaa hankkeesta yhdessä. Osapuolet eivät toimi erillisinä sopimuskumppaneina, vaan yhteisen tavoitteen mukaisesti.\n\nTurun raitiotieallianssiin kuuluvat tilaajina Turun kaupunki ja Turun Raitiotie Oy, suunnittelijoina Ramboll Finland Oy ja Sweco Finland Oy sekä rakentajina GRK Suomi Oy ja NRC Group Finland Oy. Allianssikumppanit valittiin kilpailutuksella.\n\nAllianssi on yhdessä laatinut hankkeen suunnitelmat ja määritellyt tavoitekustannuksen, joka sitoo kaikkia osapuolia.\n\nMallissa keskeistä on, että riskit ja hyödyt jaetaan. Kaikilla osapuolilla on kannustin onnistua koko hankkeen näkökulmasta.\n\nOnnistumista mitataan avaintulosalueilla, joita ovat kustannukset, aikataulu, laatu, turvallisuus sekä vaikutukset liikenteeseen ja ympäristöön.\n\nNäiden perusteella määräytyy myös palkkio. Onnistumisesta maksetaan bonusta, ja tavoitteista jääminen pienentää palkkiota.\n\nTurun raitiotiellä kustannuskuria ohjaa myös sanktio. Tavoitekustannuksen ylittyessä palveluntuottajat maksavat ylityksestä 50 prosenttia. Esimerkkilaskelmassa noin 60 miljoonan euron ylityksestä seuraisi noin 31 miljoonan euron sanktio.\n\nKustannusarvion perusteiden mukaan noin 90 % hankkeen kustannuksista kuuluu allianssin yhteiseen tavoitekustannukseen. Loput ovat tilaajan erillisiä kustannuksia, kuten arkeologisia tutkimuksia.\n\nAllianssimalli mahdollistaa tiiviin yhteistyön suunnittelun ja rakentamisen välillä. Ratkaisuja voidaan kehittää hankkeen aikana ja ongelmiin reagoida nopeasti.\n\nSamaa mallia on käytetty Turussa muissa hankkeissa ja myös muissa suomalaisissa raitiotiehankkeissa, kuten Tampereella.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Turun raitiotien toteutussuunnitelma (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Turun raitiotie – Allianssimalli",
+        "url": "https://turunraitiotie.fi/etusivu/tietoa-raitiotiesta/allianssimalli/"
+      },
+      {
+        "title": "Turun raitiotie – kustannusarvion perusteet",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Kustannusarvion-perusteet_turun-raitiotie.pdf"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie rakennetaan allianssimallilla. Mitä se tarkoittaa?",
+        "content": "Allianssimallissa tilaajat, suunnittelijat ja rakentajat muodostavat yhteisen organisaation, joka vastaa hankkeesta yhdessä. Osapuolet eivät toimi erillisinä sopimuskumppaneina, vaan yhteisen tavoitteen mukaisesti."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1776512130375,
+    "number": 58,
+    "longContent": "Turku on historiallinen kaupunki, ja arkeologia on Raitiotie vähentää renkaiden mikromuovia.\n\nSuomen ympäristökeskuksen mukaan tieliikenne on Suomessa suurin mikromuovin lähde. Keskeinen syy on renkaiden kuluminen. Lisäksi mikromuovia syntyy myös jarruista ja tiemerkinnöistä.\n\nTutkimusten mukaan jopa noin kolmannes kaikesta ympäristöön päätyvästä mikromuovista on peräisin autonrenkaista. Hiukkaset kulkeutuvat sadevesien mukana viemäreihin ja edelleen jokiin ja mereen.\n\nBussiliikenne perustuu kumirenkaisiin. Kun kapasiteettia lisätään busseilla, kasvaa väistämättä myös renkaiden kuluminen ja mikromuovipäästöt.\n\nRaitiovaunu kulkee teräspyörillä kiskoilla. Siksi se ei tuota lainkaan renkaista syntyvää mikromuovia.\n\nTämä ei yksin ratkaise mikromuoviongelmaa. Mutta se vähentää suoraan yhtä suurimmista liikenteen päästölähteistä erityisesti vilkkaimmalla joukkoliikennekäytävällä. Saaristomeren kannalta sillä on merkitystä.\n\nEnsimmäisessä kuvassa kulkee raitiotie Aarhusin satama-alueella. Myös Turussa raitiotien päätepiste kulkee satamaan.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Suomen merialueen roskaantumisen lähteet (SYKE-raportti 9/2020)",
+        "url": "https://helda.helsinki.fi/items/6d970a86-7a2f-421e-ab62-07d0d773d45e"
+      },
+      {
+        "title": "Yle: Saksalaistutkimus – suurin osa mereen päätyvästä mikromuovista aiheutuu autonrenkaista",
+        "url": "https://yle.fi/a/3-10405667"
+      },
+      {
+        "title": "Turku.fi: Mikromuovin määrä Itämeressä yllätti TSYKin lukion merilinjan purjehduksella",
+        "url": "https://www.turku.fi/ajankohtaista/mikromuovin-maara-itameressa-yllatti-tsykin-lukion-merilinjan-purjehduksella"
+      },
+      {
+        "title": "OECD – Plastics",
+        "url": "https://www.oecd.org/environment/plastics/"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie vähentää renkaiden mikromuovia",
+        "content": "Turku on historiallinen kaupunki, ja arkeologia on Raitiotie vähentää renkaiden mikromuovia."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1776512104005,
+    "number": 57,
+    "longContent": "Turku on historiallinen kaupunki, ja arkeologia on ollut mukana raitiotien suunnittelussa alusta alkaen. Reitin varrella on muinaisjäännöksiä erityisesti Hämeenkadulla ja Uudenmaankadulla.\n\nKoekaivaukset ovat vahvistaneet, että historialliset kerrostumat eivät estä raitiotien rakentamista. Myös museoviranomaisten lausunnoissa hanketta on pidetty toteuttamiskelpoisena, kun muinaisjäännökset huomioidaan suunnittelussa ja yhteistyötä tehdään.\n\nRaitiotien noin 12 kilometrin pituisesta reitistä arkeologisesti herkkää aluetta on noin kilometri.\n\nKaikkia kerrostumia ei ole tarkoitus kaivaa esiin. Osa muinaisjäännöksistä säilytetään paikoillaan maan alla, missä ne voivat säilyä paremmin kuin esiin kaivettuina. Tämä on myös museoviranomaisten esittämä lähtökohta.\n\nTeknisesti tämä mahdollistetaan esimerkiksi kelluvilla betonilaatoilla, jolloin maata ei tarvitse kaivaa syvälle eikä rakenteita paaluttaa muinaisjäännösten läpi.\n\nArkeologiset kaivaukset ja konservointi lisäävät hankkeen kustannuksia. Ne eivät kuulu valtion rahoituksen piiriin, vaan jäävät kaupungin vastuulle. Ne kuitenkin sisältyvät nyt laskettuihin kokonaiskustannuksiin.\n\nSamalla kyse on poikkeuksellisesta mahdollisuudesta tutkia Turun historiaa. Vastaavia ratkaisuja tehdään kuitenkin yleisesti Euroopassa, kun raitioteitä rakennetaan historiallisiin kaupunkeihin.\n\nRaitiotie ei siis ohita arkeologiaa vaan se sovitetaan siihen. Arkeologiset kysymykset eivät koske vain raitiotietä, vaan ne on huomioitava kaikissa keskustan raskaissa liikennejärjestelyissä.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Arkeologinen selvitys, Turun raitiotiehanke (2024)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2024/10/arkeologinen_selvitys_turun_raitiotiehanke.pdf"
+      },
+      {
+        "title": "Turun raitiotien vaikutustenarviointi",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf"
+      },
+      {
+        "title": "Lausunnot kokonaisuudessaan",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/03/Lausunnot-kokonaisuudessaan.pdf"
+      },
+      {
+        "title": "TS: Uutiset ratikan arkeologiaan liittyen",
+        "url": "https://www.ts.fi/a/6951156"
+      },
+      {
+        "title": "TS: Uutiset ratikan arkeologiaan liittyen",
+        "url": "https://www.ts.fi/a/6802199"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie ja arkeologia sovitetaan yhteen",
+        "content": "Turku on historiallinen kaupunki, ja arkeologia on ollut mukana raitiotien suunnittelussa alusta alkaen. Reitin varrella on muinaisjäännöksiä erityisesti Hämeenkadulla ja Uudenmaankadulla."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1776512071255,
+    "number": 56,
+    "longContent": "Turun raitiotiehankkeessa varaudutaan käyttämään noin 3 miljoonaa euroa julkiseen taiteeseen prosenttiperiaatteen mukaisesti. Tämä tarkoittaa, että pieni osa investoinnista käytetään taiteeseen osana rakentamista.\n\nJulkinen taide on pysyvä osa kaupunkiympäristöä. Se voi lisätä viihtyisyyttä, vahvistaa paikan identiteettiä ja tehdä arjen ympäristöstä kiinnostavamman.\n\nRaitiotie tarjoaa luontevia paikkoja taiteelle: pysäkeille, reitin varrelle ja kalustoon. Taide voi olla osa matkustuskokemusta ja kaupunkikuvaa.\n\nEsimerkiksi Tampereella raitiotien taidekokonaisuuteen on osallistunut noin 90 taiteilijaa. Ensimmäisessä kuvassa on Pyynikintorin pysäkin Tuulensilmät-teos, jonka on suunnitellut tamperelainen taiteilija Jaakko Himanen (s. 1975). Teos rakentuu värikkäistä seinämistä, joiden pintaan on asennettu erimuotoisia autoista kierrätettyjä ikkunalaseja ja led-valonauhoja.\n\nTampereella liikennöi myös taideratikka, joka toimii liikkuvana taideteoksena. Sen ulkoasu vaihtuu määräajoin, ja teokset valitaan yleisöäänestyksellä. Toisessa kuvassa on Ilai Lehdon Morottavat metsäneläimet -teos (6/2025–6/2026).",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Turun raitiotien toteutussuunnitelma",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Tampereen ratikka – taide",
+        "url": "https://www.tampereenratikka.fi/ratikan-taide/"
+      },
+      {
+        "title": "Taideratikka",
+        "url": "https://www.tampereenratikka.fi/ratikan-taide/taideratikka/"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie tuo taidetta kaupunkiin",
+        "content": "Turun raitiotiehankkeessa varaudutaan käyttämään noin 3 miljoonaa euroa julkiseen taiteeseen prosenttiperiaatteen mukaisesti. Tämä tarkoittaa, että pieni osa investoinnista käytetään taiteeseen osana rakentamista."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1776512045564,
+    "number": 55,
+    "longContent": "Kun puhutaan raitiotiestä, keskustelu keskittyy usein päätepysäkkeihin. Kuka matkustaa Varissuolta satamaan?\n\nTodellisuudessa raitiotie ei ole vain päätepysäkkien välinen yhteys, vaan se palvelee koko reitin varrella.\n\nEnsimmäiselle linjalle on suunniteltu 20 pysäkkiparia. Tämä tarkoittaa, että yhdellä linjalla on mahdollista tehdä 190 erilaista pysäkkivälien matkaa yhteen suuntaan. Ja 380 kahteen suuntaan.\n\nMatkoja tehdään esimerkiksi kodin, työpaikan, oppilaitosten, palveluiden ja vapaa-ajan kohteiden välillä. Kaikki eivät kulje koko linjaa, eikä tarvitsekaan.\n\nVaihtaminen on myös osa arkea joukkoliikenteessä. Jo nykyisessä linjastossa moni vaihtaa bussia esimerkiksi Kupittaan suuntaan matkustaessaan. Näin tehtiin myös ennen runkolinjauudistusta.\n\nRaitiotie toimii kaupunkirakenteen runkona, joka yhdistää useita alueita toisiinsa, ei vain kahta päätepistettä.\n\nSiksi olennaista ei ole, matkustaako joku päästä päähän, vaan kuinka moni käyttää linjaa eri väleillä päivittäin.\n\nKuvissa nykyinen bussiyhteys Turun satamassa sekä raitiovaunuja Helsingin Länsisatamassa.\n\nLähde:\n\nTurun raitiotien toteutussuunnitelma:\nhttps://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [],
+    "translations": {
+      "fi": {
+        "title": "Myytti: Kuka matkustaa Varissuolta satamaan?",
+        "content": "Kun puhutaan raitiotiestä, keskustelu keskittyy usein päätepysäkkeihin. Kuka matkustaa Varissuolta satamaan?"
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1776512008869,
+    "number": 54,
+    "longContent": "Raitiovaunun pieni vierintävastus perustuu yksinkertaiseen fysiikkaan: teräspyörä liikkuu teräskiskolla kevyemmin kuin kumipyörä asfaltilla. Tämä on raideliikenteen keskeinen etu, joka vähentää liikkumiseen tarvittavaa energiaa erityisesti tasaisessa ajossa.\n\nBussiliikenteessä vierintävastus on suurempi, koska kumipyörä joustaa ja muuttaa muotoaan liikkuessaan.\n\nKokonaisenergiankulutus ei kuitenkaan riipu vain tästä. Raitiovaunut ovat suuria ja kuljettavat paljon matkustajia, ja esimerkiksi pysähtely, kiihdytykset ja olosuhteet vaikuttavat kulutukseen.\n\nSiksi oleellista on tarkastella energiankulutusta matkustajaa kohden. Kun raitiovaunu on hyvin kuormitettu, suuri matkustajamäärä voidaan kuljettaa yhdellä ajoneuvolla tehokkaasti.\n\nRaitioliikenne on erityisen energiatehokasta vilkkailla runkoyhteyksillä, joilla matkustajia on paljon ja liikenne on sujuvaa. Turun raitiotielle toteutetaan liikennevaloetuudet, jotka vähentävät pysähtymistä ja tukevat tasaista kulkua.\n\nEnsimmäisessä kuvituskuvassa kulkee raitiovaunu Espanjan Alicantessa.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "UIC – Mixed Traffic High Speed Lines Operations Handbook",
+        "url": "https://www.uic.org/IMG/pdf/mixed_uic_handbook_dec_2020-final_03.pdf"
+      },
+      {
+        "title": "APTA – Quantifying Greenhouse Gas Emissions from Transit",
+        "url": "https://www.apta.com/wp-content/uploads/Standards_Documents/APTA-SUDS-CC-RP-001-09_Rev-1.pdf"
+      },
+      {
+        "title": "APTA – 2023 Public Transportation Fact Book",
+        "url": "https://www.apta.com/wp-content/uploads/APTA-2023-Public-Transportation-Fact-Book.pdf"
+      },
+      {
+        "title": "Turun raitiotien toteutussuunnitelma",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiovaunu liikkuu energiatehokkaasti.",
+        "content": "Raitiovaunun pieni vierintävastus perustuu yksinkertaiseen fysiikkaan: teräspyörä liikkuu teräskiskolla kevyemmin kuin kumipyörä asfaltilla. Tämä on raideliikenteen keskeinen etu, joka vähentää liikkumiseen tarvittavaa energiaa erityisesti tasaisessa ajossa."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1776511948633,
+    "number": 53,
+    "longContent": "Turun yliopistossa opiskelee ja työskentelee yhteensä noin 25 000 ihmistä. Vuonna 2026 se oli hakijamäärältään Suomen toiseksi suosituin korkeakoulu yhteishaussa.\n\nYliopistonmäen aluetta (kuva 1) palvelee raitiotien Yliopiston pysäkki. Lisäksi Keskussairaalan ja Kupittaan kampuksen pysäkit sijoittuvat lähelle yliopiston toimintoja, joita sijaitsee myös kauempana Yliopistonmäeltä.\n\nÅbo Akademissa opiskelee ja työskentelee yli 6 700 ihmistä. Sen rakennuksia sijaitsee Tuomiokirkon ja Yliopiston pysäkkien läheisyydessä, mukaan lukien kuvan 2 uusi Astra-rakennus.\n\nRaitiotie parantaa korkeakoulujen saavutettavuutta koko kaupungin mittakaavassa. Se helpottaa liikkumista yliopistojen kampusalueille.\n\nLisäksi Turun yliopistollinen keskussairaala ja Kupittaan kampus muodostavat laajan opiskelu- ja työpaikka-alueen, jota raitiotie palvelee usean pysäkin kautta.\n\nMyös opiskelijajärjestöt ovat tuoneet näkemyksensä esiin. Turun yliopiston ylioppilaskunta ja Åbo Akademis Studentkår ovat lausunnoissaan suhtautuneet raitiotiehen myönteisesti.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Turun yliopisto – hakijamäärät",
+        "url": "https://www.utu.fi/fi/ajankohtaista/mediatiedote/turun-yliopisto-rikkoi-jalleen-hakijamaaraennatyksensa"
+      },
+      {
+        "title": "Turun yliopisto – tietoa yliopistosta",
+        "url": "https://www.utu.fi/fi/yliopisto/tietoa"
+      },
+      {
+        "title": "Åbo Akademi – tietoa yliopistosta",
+        "url": "https://www.abo.fi/fi/"
+      },
+      {
+        "title": "Lausunnot raitiotiehankkeesta",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/03/Lausunnot-kokonaisuudessaan.pdf"
+      },
+      {
+        "title": "Raitiotien vaikutusten arviointi (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie tukee yliopistoja",
+        "content": "Turun yliopistossa opiskelee ja työskentelee yhteensä noin 25 000 ihmistä. Vuonna 2026 se oli hakijamäärältään Suomen toiseksi suosituin korkeakoulu yhteishaussa."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1776511899485,
+    "number": 52,
+    "longContent": "Raitiotien rakentaminen uudistaa katuja laajasti. Kun katu rakennetaan vaiheittain uusiksi seinästä seinään, voidaan samalla uusia myös maan alla kulkevaa kunnallistekniikkaa, kuten vesi- ja viemäriputkia sekä muuta infraa.\n\nOsa putkista on joka tapauksessa tulossa käyttöikänsä päähän. Kun työ tehdään raitiotien rakentamisen yhteydessä, katuja ei tarvitse avata myöhemmin uudelleen ja kustannuksiin on mahdollisuus saada valtion tukea.\n\nKunnallistekniikkaa myös siirretään pois raitiotien alta. Näin huollot ja korjaukset voidaan tehdä myöhemmin ilman, että raitiotierataa tarvitsee purkaa. Putkien huolto ja korjaaminen on kaupungeissa yleinen syy katujen kaivamiseen.\n\nTurun raitiotien toteutussuunnitelmassa kunnallistekniikan uusimisen ja johtosiirtojen kustannukseksi on arvioitu rakentamisen osalta 33,3 miljoonaa euroa. Summa sisältyy hankkeen sitovaan kokonaishintaan.\n\nKuvassa on raitiotiehankkeen valmisteluvaihetta Uppsalassa tammikuussa 2026. Kaupungissa tehdään parhaillaan katujen ja kunnallistekniikan valmistelutöitä ennen raitiotien rakentamista.",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Turun raitiotien toteutussuunnitelma (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Uppsalan raitiotiehanke",
+        "url": "https://www.uppsala.se/sparvag"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Kunnallistekniikka uusitaan: Putki- ja johtosiirrot sisältyvät kokonaishintaan.",
+        "content": "Raitiotien rakentaminen uudistaa katuja laajasti. Kun katu rakennetaan vaiheittain uusiksi seinästä seinään, voidaan samalla uusia myös maan alla kulkevaa kunnallistekniikkaa, kuten vesi- ja viemäriputkia sekä muuta infraa."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
+    "id": 1776511855521,
+    "number": 51,
+    "longContent": "Turun ratapiha-alueelle on suunniteltu merkittävää täydennysrakentamista aivan keskustan tuntumaan. Alueelle on kaavoitettu 10 000 katsojan areena, elämyskeskus, hotelli, liikuntatiloja, toimistoja, liiketiloja sekä asuntoja noin 1500 asukkaalle.\n\nHanke ei ole toistaiseksi edennyt toteutukseen, mutta asemakaava on hyväksytty vuonna 2023 ja alueen kehittäminen suunnitelmien mukaisesti on on edelleen mahdollista.\n\nAsemanaukion raitiotiepysäkki sijoittuu aivan alueen viereen. Se tarjoaa suoran joukkoliikenneyhteyden keskustaan, satamaan ja Kupittaan suuntaan. Pysäkki palvelee myös vanhan rautatieaseman tulevaa käyttöä sekä lähialueen nykyisiä asukkaita ja palveluita.\n\nAlue on tällä hetkellä kaupungin omistuksessa. Vaikka nykyiset suunnitelmat eivät toteutuisi sellaisenaan, näin keskeinen alue tulee todennäköisesti kehittymään tulevaisuudessa. Hyvät joukkoliikenneyhteydet ovat tärkeä tekijä kaupunkikehityksessä. Raitiotie voi vauhdittaa ratapiha-alueen kehitystä parantamalla sen saavutettavuutta.\n\nEnsimmäisessä kuvassa on kaavassa suojeltu veturitalli, jonka takana näkyy Logomo. Toisessa kuvassa näkyy tyhjää tilaa, josta käytöstä poistuneet huoltoraiteet on jo purettu. Kolmas kuva on havainnekuva",
+    "link": "https://ratikkafaktat.fi",
+    "resources": [
+      {
+        "title": "Turun ratapiha",
+        "url": "https://www.turkuratapiha.fi/"
+      },
+      {
+        "title": "Turun ratapiha – kaupungin sivut",
+        "url": "https://www.turku.fi/rakentuva-kaupunki/turku-ratapiha"
+      },
+      {
+        "title": "Asemakaavatiedot (hyväksytty 17.4.2023)",
+        "url": "https://www.turku.fi/rakentaminen/kaavoitus/turku-ratapiha-11740-2017"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie parantaa ratapiha-alueen saavutettavuutta",
+        "content": "Turun ratapiha-alueelle on suunniteltu merkittävää täydennysrakentamista aivan keskustan tuntumaan. Alueelle on kaavoitettu 10 000 katsojan areena, elämyskeskus, hotelli, liikuntatiloja, toimistoja, liiketiloja sekä asuntoja noin 1500 asukkaalle."
+      },
+      "en": {
+        "title": "",
+        "content": ""
+      },
+      "sv": {
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  {
     "id": 1775982919520,
     "number": 50,
     "longContent": "Raitiotie kuljettaa paljon matkustajia kerralla, mikä on erityisen hyödyllistä suurten yleisötapahtumien yhteydessä ennen ja jälkeen tapahtuman.\n\nRaitiotien reitin varrella sijaitsee useita tapahtuma-alueita. Linnapuistossa järjestetään vuosittain festivaaleja, ja satamaradan siirron myötä alue laajenee entisestään. Kaupunkifestivaaleja järjestetään myös Tuomiokirkon alueella ja Taiteen talolla.\n\nKeskustassa ja jokirannassa järjestetään runsaasti yleisötapahtumia kuten markkinoita ja opiskelijatapahtumia. Kupittaanpuisto ja Kupittaan urheiluareenat tuovat alueelle suuria kävijämääriä ympäri vuoden.\n\nRautatientorin pysäkiltä on kävelymatka Logomoon, ja se on suorassa yhteydessä mahdolliseen uuteen areenaan ja elämyskeskukseen.\n\nRaitiotie mahdollistaa suurten ihmismäärien sujuvan liikkumisen ilman, että muu liikenne ruuhkautuu yhtä helposti. Tämä tekee tapahtumiin saapumisesta ja poistumisesta selkeämpää ja ennakoitavampaa.",
