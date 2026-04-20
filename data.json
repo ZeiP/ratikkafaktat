@@ -1,17 +1,47 @@
 [
   {
-    "id": 1776512189154,
-    "number": 59,
-    "longContent": "Allianssimallissa tilaajat, suunnittelijat ja rakentajat muodostavat yhteisen organisaation, joka vastaa hankkeesta yhdessä. Osapuolet eivät toimi erillisinä sopimuskumppaneina, vaan yhteisen tavoitteen mukaisesti.\n\nTurun raitiotieallianssiin kuuluvat tilaajina Turun kaupunki ja Turun Raitiotie Oy, suunnittelijoina Ramboll Finland Oy ja Sweco Finland Oy sekä rakentajina GRK Suomi Oy ja NRC Group Finland Oy. Allianssikumppanit valittiin kilpailutuksella.\n\nAllianssi on yhdessä laatinut hankkeen suunnitelmat ja määritellyt tavoitekustannuksen, joka sitoo kaikkia osapuolia.\n\nMallissa keskeistä on, että riskit ja hyödyt jaetaan. Kaikilla osapuolilla on kannustin onnistua koko hankkeen näkökulmasta.\n\nOnnistumista mitataan avaintulosalueilla, joita ovat kustannukset, aikataulu, laatu, turvallisuus sekä vaikutukset liikenteeseen ja ympäristöön.\n\nNäiden perusteella määräytyy myös palkkio. Onnistumisesta maksetaan bonusta, ja tavoitteista jääminen pienentää palkkiota.\n\nTurun raitiotiellä kustannuskuria ohjaa myös sanktio. Tavoitekustannuksen ylittyessä palveluntuottajat maksavat ylityksestä 50 prosenttia. Esimerkkilaskelmassa noin 60 miljoonan euron ylityksestä seuraisi noin 31 miljoonan euron sanktio.\n\nKustannusarvion perusteiden mukaan noin 90 % hankkeen kustannuksista kuuluu allianssin yhteiseen tavoitekustannukseen. Loput ovat tilaajan erillisiä kustannuksia, kuten arkeologisia tutkimuksia.\n\nAllianssimalli mahdollistaa tiiviin yhteistyön suunnittelun ja rakentamisen välillä. Ratkaisuja voidaan kehittää hankkeen aikana ja ongelmiin reagoida nopeasti.\n\nSamaa mallia on käytetty Turussa muissa hankkeissa ja myös muissa suomalaisissa raitiotiehankkeissa, kuten Tampereella.",
-    "link": "https://ratikkafaktat.fi",
+    "id": 557883025,
+    "number": 60,
+    "longContent": "Raitiotie kulkee selkeää ja pysyvää reittiä pitkin. Kiskot näkyvät katukuvassa, ja linja on helppo tunnistaa sekä kartalla että ympäristössä. Reitin pysyvyys tekee liikkumisesta ennakoitavaa.\n\nSuuret raitiovaunut on myös helppo havaita liikenteessä, ja niiden kulku kiskoja pitkin on ennakoitavaa. Raitiotie kulkee joka kerta täsmälleen samasta kohdasta.\n\nTämä on tärkeää erityisesti niille, joille joukkoliikenne ei ole tuttua. Selkeä reitti helpottaa matkustamista esimerkiksi lapsille, ikääntyneille, vieraassa kaupungissa liikkuville sekä hahmottamisen tai suunnistamisen kanssa haasteita kokeville.\n\nHelppo hahmotettavuus on yksi tekijä, joka lisää raitiotien käyttöä. Muita tekijöitä ovat esimerkiksi suuri kapasiteetti, tasainen kulku, hyvä täsmällisyys ja selkeä pysäkkijärjestelmä.\n\nMyös pysäkkien opastukseen panostetaan. Pysäkit merkitään selkeästi, ja matkustajainformaatio suunnitellaan helposti ymmärrettäväksi.\n\nRaitiotie ei siis ole vain kulkuväline, vaan myös helposti käytettävä osa kaupunkia.\n\nKuvissa raitiotieympäristöä Tallinnassa ja Vila Nova de Gaiassa.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
     "resources": [
       {
         "title": "Turun raitiotien toteutussuunnitelma (2026)",
         "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
       },
       {
-        "title": "Turun raitiotie – Allianssimalli",
-        "url": "https://turunraitiotie.fi/etusivu/tietoa-raitiotiesta/allianssimalli/"
+        "title": "Turun raitiotien vaikutustenarviointi (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie on helppo hahmottaa.",
+        "content": "Raitiotie kulkee selkeää ja pysyvää reittiä pitkin. Kiskot näkyvät katukuvassa, ja linja on helppo tunnistaa sekä kartalla että ympäristössä. Reitin pysyvyys tekee liikkumisesta ennakoitavaa."
+      },
+      "en": {
+        "title": "Easy to understand and use",
+        "content": "Rails, a fixed route, large vehicles and clearly marked stops make the tram easy to understand. This makes it easier to use, even for people who are not familiar with public transport."
+      },
+      "sv": {
+        "title": "Lätt att förstå och använda",
+        "content": "Rälsen, den fasta rutten, de stora vagnarna och tydliga hållplatser gör spårvägen lätt att förstå. Det underlättar resandet också för den som inte är van vid kollektivtrafik."
+      }
+    }
+  },
+  {
+    "id": 557483634,
+    "number": 59,
+    "longContent": "Allianssimallissa tilaajat, suunnittelijat ja rakentajat muodostavat yhteisen organisaation, joka vastaa hankkeesta yhdessä. Osapuolet eivät toimi erillisinä sopimuskumppaneina, vaan yhteisen tavoitteen mukaisesti.\n\nTurun raitiotieallianssiin kuuluvat tilaajina Turun kaupunki ja Turun Raitiotie Oy, suunnittelijoina Ramboll Finland Oy ja Sweco Finland Oy sekä rakentajina GRK Suomi Oy ja NRC Group Finland Oy. Allianssikumppanit valittiin kilpailutuksella.\n\nAllianssi on yhdessä laatinut hankkeen suunnitelmat ja määritellyt tavoitekustannuksen, joka sitoo kaikkia osapuolia.\n\nMallissa keskeistä on, että riskit ja hyödyt jaetaan. Kaikilla osapuolilla on kannustin onnistua koko hankkeen näkökulmasta.\n\nOnnistumista mitataan avaintulosalueilla, joita ovat kustannukset, aikataulu, laatu, turvallisuus sekä vaikutukset liikenteeseen ja ympäristöön.\n\nNäiden perusteella määräytyy myös palkkio. Onnistumisesta maksetaan bonusta, ja tavoitteista jääminen pienentää palkkiota.\n\nTurun raitiotiellä kustannuskuria ohjaa myös sanktio. Tavoitekustannuksen ylittyessä palveluntuottajat maksavat ylityksestä 50 prosenttia. Esimerkkilaskelmassa noin 60 miljoonan euron ylityksestä seuraisi noin 31 miljoonan euron sanktio.\n\nKustannusarvion perusteiden mukaan noin 90 % hankkeen kustannuksista kuuluu allianssin yhteiseen tavoitekustannukseen. Loput ovat tilaajan erillisiä kustannuksia, kuten arkeologisia tutkimuksia.\n\nAllianssimalli mahdollistaa tiiviin yhteistyön suunnittelun ja rakentamisen välillä. Ratkaisuja voidaan kehittää hankkeen aikana ja ongelmiin reagoida nopeasti.\n\nSamaa mallia on käytetty Turussa muissa hankkeissa ja myös muissa suomalaisissa raitiotiehankkeissa, kuten Tampereella.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "turunraitiotie.fi",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Allianssimalli - Turun raitiotie",
+        "url": "https://turunraitiotie.fi/etusivu/tietoa-raitiotiesta/allianssimalli"
       },
       {
         "title": "Turun raitiotie – kustannusarvion perusteet",
@@ -24,12 +54,12 @@
         "content": "Allianssimallissa tilaajat, suunnittelijat ja rakentajat muodostavat yhteisen organisaation, joka vastaa hankkeesta yhdessä. Osapuolet eivät toimi erillisinä sopimuskumppaneina, vaan yhteisen tavoitteen mukaisesti."
       },
       "en": {
-        "title": "",
-        "content": ""
+        "title": "Alliance model shares risks and rewards",
+        "content": "The project is delivered together by the City of Turku, Turku Tramway Ltd., GRK, NRC, Ramboll and Sweco. If the project performs well, the partners are rewarded – if not, compensation is reduced."
       },
       "sv": {
-        "title": "",
-        "content": ""
+        "title": "Alliansmodellen delar risker och nytta",
+        "content": "Åbo stad, Åbo Spårväg Ab, GRK, NRC, Ramboll och Sweco ansvarar för projektet tillsammans. Lyckas projektet får parterna bonus – annars minskar ersättningen."
       }
     }
   },
@@ -44,16 +74,16 @@
         "url": "https://helda.helsinki.fi/items/6d970a86-7a2f-421e-ab62-07d0d773d45e"
       },
       {
-        "title": "Yle: Saksalaistutkimus – suurin osa mereen päätyvästä mikromuovista aiheutuu autonrenkaista",
+        "title": "Saksalaistutkimus: Suurin osa mereen päätyvästä mikromuovista aiheutuu autonrenkaista – Mitä rajummin kiihdytät ja jarrutat, sitä enemmän irtoaa | Yle",
         "url": "https://yle.fi/a/3-10405667"
       },
       {
-        "title": "Turku.fi: Mikromuovin määrä Itämeressä yllätti TSYKin lukion merilinjan purjehduksella",
+        "title": "Mikromuovin määrä Itämeressä yllätti TSYKin lukion merilinjan purjehduksella | Turku.fi",
         "url": "https://www.turku.fi/ajankohtaista/mikromuovin-maara-itameressa-yllatti-tsykin-lukion-merilinjan-purjehduksella"
       },
       {
-        "title": "OECD – Plastics",
-        "url": "https://www.oecd.org/environment/plastics/"
+        "title": "Plastics | OECD",
+        "url": "https://www.oecd.org/environment/plastics"
       }
     ],
     "translations": {
@@ -62,12 +92,12 @@
         "content": "Raitiotie vähentää renkaiden mikromuovia. Suomen ympäristökeskuksen mukaan tieliikenne on Suomessa suurin mikromuovin lähde. Keskeinen syy on renkaiden kuluminen. Lisäksi mikromuovia syntyy myös jarruista ja tiemerkinnöistä."
       },
       "en": {
-        "title": "Vähemmän mikromuovia",
-        "content": "Turku on historiallinen kaupunki, ja arkeologia on Raitiotie vähentää renkaiden mikromuovia."
+        "title": "Less microplastic from tyres",
+        "content": "Road traffic is the largest source of microplastics in Finland, much of it from tyre wear. Trams do not use rubber tyres and therefore avoid this type of emission."
       },
       "sv": {
-        "title": "Vähemmän mikromuovia",
-        "content": "Turku on historiallinen kaupunki, ja arkeologia on Raitiotie vähentää renkaiden mikromuovia."
+        "title": "Mindre mikroplast från däck",
+        "content": "Trafiken är den största källan till mikroplast i Finland, och en stor del kommer från däck. Spårvagnar har inga gummidäck och bidrar därför inte till denna typ av utsläpp."
       }
     }
   },
@@ -104,12 +134,12 @@
         "content": "Turku on historiallinen kaupunki, ja arkeologia on ollut mukana raitiotien suunnittelussa alusta alkaen. Reitin varrella on muinaisjäännöksiä erityisesti Hämeenkadulla ja Uudenmaankadulla."
       },
       "en": {
-        "title": "Arkeologia huomioidaan",
-        "content": "Turku on historiallinen kaupunki, ja arkeologia on ollut mukana raitiotien suunnittelussa alusta alkaen. Reitin varrella on muinaisjäännöksiä erityisesti Hämeenkadulla ja Uudenmaankadulla."
+        "title": "Archaeology is taken into account",
+        "content": "About one kilometre of the 12-kilometre route runs through archaeologically sensitive areas. Test excavations show that historical layers do not prevent construction."
       },
       "sv": {
-        "title": "Arkeologia huomioidaan",
-        "content": "Turku on historiallinen kaupunki, ja arkeologia on ollut mukana raitiotien suunnittelussa alusta alkaen. Reitin varrella on muinaisjäännöksiä erityisesti Hämeenkadulla ja Uudenmaankadulla."
+        "title": "Arkeologin beaktas",
+        "content": "Av den cirka 12 kilometer långa rutten är ungefär en kilometer arkeologiskt känslig. Provgrävningar visar att de historiska lagren inte hindrar byggandet."
       }
     }
   },
@@ -138,12 +168,12 @@
         "content": "Turun raitiotiehankkeessa varaudutaan käyttämään noin 3 miljoonaa euroa julkiseen taiteeseen prosenttiperiaatteen mukaisesti. Tämä tarkoittaa, että pieni osa investoinnista käytetään taiteeseen osana rakentamista."
       },
       "en": {
-        "title": "Julkista taidetta",
-        "content": "Turun raitiotiehankkeessa varaudutaan käyttämään noin 3 miljoonaa euroa julkiseen taiteeseen prosenttiperiaatteen mukaisesti. Tämä tarkoittaa, että pieni osa investoinnista käytetään taiteeseen osana rakentamista."
+        "title": "Public art as part of the city",
+        "content": "Around €3 million is reserved for public art using the “percent for art” principle. Art can be seen at stops, along the route and on the vehicles."
       },
       "sv": {
-        "title": "Julkista taidetta",
-        "content": "Turun raitiotiehankkeessa varaudutaan käyttämään noin 3 miljoonaa euroa julkiseen taiteeseen prosenttiperiaatteen mukaisesti. Tämä tarkoittaa, että pieni osa investoinnista käytetään taiteeseen osana rakentamista."
+        "title": "Konst som en del av stadsmiljön",
+        "content": "I projektet reserveras cirka 3 miljoner euro för offentlig konst enligt procentprincipen. Konsten kan synas vid hållplatser, längs rutten och i vagnarna."
       }
     }
   },
@@ -164,12 +194,12 @@
         "content": "Kun puhutaan raitiotiestä, keskustelu keskittyy usein päätepysäkkeihin. Kuka matkustaa Varissuolta satamaan?"
       },
       "en": {
-        "title": "Ei vain päätepisteet",
-        "content": "Kun puhutaan raitiotiestä, keskustelu keskittyy usein päätepysäkkeihin. Kuka matkustaa Varissuolta satamaan?"
+        "title": "Not just end-to-end travel",
+        "content": "With 20 stop pairs, there are 190 possible journeys in one direction and 380 in both directions. The tram serves the whole route, not just the endpoints."
       },
       "sv": {
-        "title": "Ei vain päätepisteet",
-        "content": "Kun puhutaan raitiotiestä, keskustelu keskittyy usein päätepysäkkeihin. Kuka matkustaa Varissuolta satamaan?"
+        "title": "Inte bara mellan ändhållplatser",
+        "content": "Med 20 hållplatspar kan man göra 190 olika resor i en riktning och 380 i båda riktningarna. Spårvägen betjänar hela sträckan, inte bara ändpunkterna."
       }
     }
   },
@@ -202,12 +232,12 @@
         "content": "Raitiovaunun pieni vierintävastus perustuu yksinkertaiseen fysiikkaan: teräspyörä liikkuu teräskiskolla kevyemmin kuin kumipyörä asfaltilla. Tämä on raideliikenteen keskeinen etu, joka vähentää liikkumiseen tarvittavaa energiaa erityisesti tasaisessa ajossa."
       },
       "en": {
-        "title": "Pieni vierintävastus",
-        "content": "Raitiovaunun pieni vierintävastus perustuu yksinkertaiseen fysiikkaan: teräspyörä liikkuu teräskiskolla kevyemmin kuin kumipyörä asfaltilla. Tämä on raideliikenteen keskeinen etu, joka vähentää liikkumiseen tarvittavaa energiaa erityisesti tasaisessa ajossa."
+        "title": "Low rolling resistance saves energy",
+        "content": "Steel wheels on rails roll more easily than rubber tyres on asphalt. When many people travel together, energy use per passenger stays low."
       },
       "sv": {
-        "title": "Pieni vierintävastus",
-        "content": "Raitiovaunun pieni vierintävastus perustuu yksinkertaiseen fysiikkaan: teräspyörä liikkuu teräskiskolla kevyemmin kuin kumipyörä asfaltilla. Tämä on raideliikenteen keskeinen etu, joka vähentää liikkumiseen tarvittavaa energiaa erityisesti tasaisessa ajossa."
+        "title": "Lågt rullmotstånd sparar energi",
+        "content": "Stålhjul på räls rullar lättare än gummihjul på asfalt. När många reser tillsammans blir energiförbrukningen per person låg."
       }
     }
   },
@@ -244,12 +274,12 @@
         "content": "Turun yliopistossa opiskelee ja työskentelee yhteensä noin 25 000 ihmistä. Vuonna 2026 se oli hakijamäärältään Suomen toiseksi suosituin korkeakoulu yhteishaussa."
       },
       "en": {
-        "title": "Tukee yliopistoja",
-        "content": "Turun yliopistossa opiskelee ja työskentelee yhteensä noin 25 000 ihmistä. Vuonna 2026 se oli hakijamäärältään Suomen toiseksi suosituin korkeakoulu yhteishaussa."
+        "title": "Improved access to universities",
+        "content": "More than 30,000 people study and work at the University of Turku and Åbo Akademi. The tramway improves access to the campus areas with several stops along the route."
       },
       "sv": {
-        "title": "Tukee yliopistoja",
-        "content": "Turun yliopistossa opiskelee ja työskentelee yhteensä noin 25 000 ihmistä. Vuonna 2026 se oli hakijamäärältään Suomen toiseksi suosituin korkeakoulu yhteishaussa."
+        "title": "Bättre förbindelser till högskolorna",
+        "content": "Vid Åbo universitet och Åbo Akademi studerar och arbetar över 30 000 personer. Spårvägen förbättrar tillgängligheten till campusområdena med flera hållplatser längs rutten."
       }
     }
   },
@@ -274,12 +304,12 @@
         "content": "Raitiotien rakentaminen uudistaa katuja laajasti. Kun katu rakennetaan vaiheittain uusiksi seinästä seinään, voidaan samalla uusia myös maan alla kulkevaa kunnallistekniikkaa, kuten vesi- ja viemäriputkia sekä muuta infraa."
       },
       "en": {
-        "title": "Putki- ja johtosiirrot",
-        "content": "Raitiotien rakentaminen uudistaa katuja laajasti. Kun katu rakennetaan vaiheittain uusiksi seinästä seinään, voidaan samalla uusia myös maan alla kulkevaa kunnallistekniikkaa, kuten vesi- ja viemäriputkia sekä muuta infraa."
+        "title": "Streets and infrastructure are renewed at the same time",
+        "content": "Building the tramway also means upgrading streets, water pipes and sewer systems. The cost of this work is estimated at €33.3 million."
       },
       "sv": {
-        "title": "Putki- ja johtosiirrot",
-        "content": "Raitiotien rakentaminen uudistaa katuja laajasti. Kun katu rakennetaan vaiheittain uusiksi seinästä seinään, voidaan samalla uusia myös maan alla kulkevaa kunnallistekniikkaa, kuten vesi- ja viemäriputkia sekä muuta infraa."
+        "title": "Gator och ledningar förnyas samtidigt",
+        "content": "I samband med spårvägen byggs gator om och vatten- och avloppsledningar förnyas. Kostnaden för kommunalteknik och ledningsflyttar uppskattas till 33,3 miljoner euro."
       }
     }
   },
@@ -308,12 +338,12 @@
         "content": "Turun ratapiha-alueelle on suunniteltu merkittävää täydennysrakentamista aivan keskustan tuntumaan. Alueelle on kaavoitettu 10 000 katsojan areena, elämyskeskus, hotelli, liikuntatiloja, toimistoja, liiketiloja sekä asuntoja noin 1500 asukkaalle."
       },
       "en": {
-        "title": "Ratapiha",
-        "content": "Turun ratapiha-alueelle on suunniteltu merkittävää täydennysrakentamista aivan keskustan tuntumaan. Alueelle on kaavoitettu 10 000 katsojan areena, elämyskeskus, hotelli, liikuntatiloja, toimistoja, liiketiloja sekä asuntoja noin 1500 asukkaalle."
+        "title": "Better access to the rail yard area",
+        "content": "The Asemanaukio stop, next to the old railway station, will be located right by the rail yard area. It provides easy access to an area where an arena, experience centre, hotel and housing for around 1,500 residents are planned."
       },
       "sv": {
-        "title": "Ratapiha",
-        "content": "Turun ratapiha-alueelle on suunniteltu merkittävää täydennysrakentamista aivan keskustan tuntumaan. Alueelle on kaavoitettu 10 000 katsojan areena, elämyskeskus, hotelli, liikuntatiloja, toimistoja, liiketiloja sekä asuntoja noin 1500 asukkaalle."
+        "title": "Bättre tillgänglighet till bangårdsområdet",
+        "content": "Hållplatsen vid Stationsplan placeras precis intill bangårdsområdet. Den ger smidiga förbindelser till ett område där det planeras bl.a. en arena, ett upplevelsecenter, hotell och bostäder för cirka 1 500 invånare."
       }
     }
   },
