@@ -143,7 +143,9 @@ languages.forEach(lang => {
 
   const langIndexHtml = cleanBaseHtml
     .replace('<!-- VITE_INJECT_SEO -->', indexSeoTags)
-    .replace('<h1 id="site-name">Sata <span style="white-space: nowrap;">ratikka<span class="logo-highlight">faktaa</span></span></h1>', `<h1 id="site-name">${lang.siteHeadingHtml}</h1>`)
+    .replace('<main id="main-content" class="container">', `<main id="main-content" class="container">\n        <h1 class="sr-only">${lang.siteTitle}</h1>`)
+    .replace('<div id="site-name">Sata <span style="white-space: nowrap;">ratikka<span class="logo-highlight">faktaa</span></span></div>', `<div id="site-name">${lang.siteHeadingHtml}</div>`)
+    .replace('<h1 id="detail-title"></h1>', '')
     .replace(/<p id="footer-text">[\s\S]*?<\/p>/, `<p id="footer-text">${lang.footerHtml}</p>`)
     .replace('<!-- VITE_INJECT_INTRO -->', lang.introHtml)
     .replace('<!-- VITE_INJECT_LIST -->', gridHtml);
@@ -238,7 +240,7 @@ data.forEach(fact => {
       .replace('id="lang-fi" href="/fi/"', `id="lang-fi" href="/fi/fakta/${fact.number}"`)
       .replace('id="lang-en" href="/en/"', `id="lang-en" href="/en/fakta/${fact.number}"`)
       .replace('id="lang-sv" href="/sv/"', `id="lang-sv" href="/sv/fakta/${fact.number}"`)
-      .replace('<h1 id="site-name">Sata <span style="white-space: nowrap;">ratikka<span class="logo-highlight">faktaa</span></span></h1>', `<h1 id="site-name">${lang.siteHeadingHtml}</h1>`)
+      .replace('<div id="site-name">Sata <span style="white-space: nowrap;">ratikka<span class="logo-highlight">faktaa</span></span></div>', `<div id="site-name">${lang.siteHeadingHtml}</div>`)
       .replace(/<p id="footer-text">[\s\S]*?<\/p>/, `<p id="footer-text">${lang.footerHtml}</p>`)
       .replace('<h1 id="detail-title"></h1>', `<h1 id="detail-title">${escapeHtml(localized.title)}</h1>`)
       .replace('<!-- VITE_INJECT_DETAIL_NUMBER -->', `#${fact.number}`)

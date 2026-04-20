@@ -149,11 +149,17 @@ h2 {
   max-width: 800px;
 }
 
-.hero h1 {
+.hero h1, .hero #site-name {
   font-size: clamp(2.2rem, 8vw, 6rem);
   font-weight: 800;
   letter-spacing: -0.03em;
   margin-bottom: 1rem;
+}
+
+#site-name {
+  font-family: var(--font-heading);
+  margin: 0;
+  line-height: 1.2;
 }
 
 .hero p {

@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "dev": "node node_modules/vite/bin/vite.js",
-    "prebuild": "node scraper.js",
     "build": "node node_modules/vite/bin/vite.js build && node build-seo.js",
     "preview": "node node_modules/vite/bin/vite.js preview"
   },
