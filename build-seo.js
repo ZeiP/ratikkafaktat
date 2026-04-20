@@ -163,7 +163,7 @@ data.forEach(fact => {
     const seoTitle = `${lang.factPrefix} ${fact.number}: ${localized.title}`;
     const seoDesc = localized.content.replace(/"/g, '&quot;');
     const factAlternateLinks = languages
-      .map(l => `<link rel="alternate" hreflang="${l.code}" href="https://ratikkafaktat.fi/${l.code}/fakta/${fact.number}" />`)
+      .map(l => `<link rel="alternate" hreflang="${l.code}" href="https://ratikkafaktat.fi/${l.code}/fakta/${fact.number}/" />`)
       .join('\n    ');
 
     const seoTags = `
@@ -181,9 +181,9 @@ data.forEach(fact => {
     <meta name="geo.placename" content="Turku" />
     <meta name="geo.position" content="60.4518;22.2666" />
     <meta name="ICBM" content="60.4518, 22.2666" />
-    <link id="canonical-link" rel="canonical" href="https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}" />
+    <link id="canonical-link" rel="canonical" href="https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}/" />
     ${factAlternateLinks}
-    <meta property="og:url" content="https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}" />
+    <meta property="og:url" content="https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}/" />
     <script id="schema-base" type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -193,7 +193,7 @@ data.forEach(fact => {
           "@id": "https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}/#article",
           "headline": "${seoTitle}",
           "articleBody": "${seoDesc}",
-          "url": "https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}",
+          "url": "https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}/",
           "publisher": {
             "@id": "https://ratikkafaktat.fi/#organization"
           }
@@ -317,7 +317,7 @@ data.forEach(fact => {
   languages.forEach(lang => {
     sitemapUrls += `
   <url>
-    <loc>https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}</loc>
+    <loc>https://ratikkafaktat.fi/${lang.code}/fakta/${fact.number}/</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
