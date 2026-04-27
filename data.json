@@ -1,5 +1,381 @@
 [
   {
+    "id": 1777314231396,
+    "number": 70,
+    "longContent": "Viherraide sitoo katupölyä. Raitiotie voidaan rakentaa viherraiteena, jossa kiskojen väli ja usein myös reunat toteutetaan kasvillisuudella.\n\nKasvillisuus sitoo ja pidättää pölyä sekä kosteutta. Tämä vähentää pölyn nousemista ilmaan ja sen leviämistä ympäristöön, erityisesti kuivalla kevätsäällä.\n\nViherraide myös säilyttää kosteutta, mikä vähentää pölyn uudelleen leviämistä. Kova asfalttipinta toimii eri tavalla. Se ei sido pölyä, vaan liikenne nostaa pölyn helposti ilmaan.\n\nRaitiovaunuissa voidaan tarvittaessa käyttää hiekoitusta pidon parantamiseksi. Hiekoitushiekka voi murskautuessaan aiheuttaa paikallista pölyä, mutta käyttö on satunnaista ja liittyy erityistilanteisiin.\n\nSuurin osa katupölystä syntyy kuitenkin tieliikenteestä, erityisesti renkaiden ja tienpinnan kulumisesta.\n\nViherraide ei poista katupölyä kokonaan, mutta se on yksi keino vähentää sen haittoja osana laajempaa kaupunkiympäristön suunnittelua.\n\nSamalla viherraide vähentää melua, viilentää katutilaa ja parantaa hulevesien hallintaa. Turussa radasta noin 29 % on suunniteltu toteutettavaksi viherraiteena.\n\nKuvissa Tampereen raitiotien Lentävänniemen osuuden viherrataa ja Vuoden ympäristörakenne 2025 -palkittu Helsingin raitiotielinja 13.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Katupöly - Ilmatieteen laitos",
+        "url": "https://www.ilmatieteenlaitos.fi/katupoly"
+      },
+      {
+        "title": "Katupöly heikentää ilmanlaatua ja lisää terveysriskejä keväisin - THL",
+        "url": "https://thl.fi/-/katupoly-heikentaa-ilmanlaatua-ja-lisaa-terveysriskeja-kevaisin"
+      },
+      {
+        "title": "Green infrastructure - Environment - European Commission",
+        "url": "https://environment.ec.europa.eu/topics/nature-and-biodiversity/green-infrastructure_en"
+      },
+      {
+        "title": "NACTO – Green Tram Tracks",
+        "url": "https://nacto.org/wp-content/uploads/3-7_Green-Tram-Tracks-The-Advantages-of-Implementing-Vegetation-Systems-in-Tram-Tracks_2010.pdf"
+      },
+      {
+        "title": "KAPA, Raitiolinja 13 Kalasatamasta Pasilaan, Helsinki – Vuoden Ympäristörakenne",
+        "url": "https://www.vyl.fi/vuodenymparistorakenne/2026/02/11/kapa-raitiolinja-13-kalasatamasta-pasilaan-helsinki"
+      },
+      {
+        "title": "Turun raitiotien toteutussuunnitelma (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Viherraide sitoo katupölyä",
+        "content": "Viherraide sitoo katupölyä. Raitiotie voidaan rakentaa viherraiteena, jossa kiskojen väli ja usein myös reunat toteutetaan kasvillisuudella."
+      },
+      "en": {
+        "title": "Green track reduces dust and noise",
+        "content": "Parts of the tram can be built as green track. Vegetation helps bind street dust, reduce noise and make the urban environment more pleasant."
+      },
+      "sv": {
+        "title": "Grönspår minskar damm och buller",
+        "content": "Delar av spårvägen kan byggas som grönspår. Växtligheten binder gatudamm, dämpar buller och gör stadsmiljön trivsammare."
+      }
+    }
+  },
+  {
+    "id": 559576342,
+    "number": 69,
+    "longContent": "Raitiotien rakentaminen etenee vaiheittain eri puolilla kaupunkia. Työ on jaettu viiteen osaprojektiin, eikä kaikkia katuja rakenneta samaan aikaan.\n\nRakentaminen alkaa valmistelevilla töillä rakentamispäätöksen jälkeen. Näihin kuuluvat muun muassa Tuomiokirkkosillan perusparannus sekä katujen ja kunnallistekniikan uudistaminen.\n\nEnsimmäisessä vaiheessa vuosina 2027–2028 toteutetaan hankkeita, jotka parantavat joukkoliikennettä raitiotiestä riippumatta. Tällaisia ovat esimerkiksi Aninkaistenkadun ja Uudenmaankadun joukkoliikennejärjestelyt.\n\nVarsinainen raitiotien rakentaminen tapahtuu vuosina 2028–2032 vaiheittain koko linjan pituudelta. Yksittäisellä kadulla työ kestää tyypillisesti noin 1–2 vuotta, minkä jälkeen rakentaminen siirtyy eteenpäin.\n\nRakentamisessa edetään myös niin, että osa linjasta valmistuu aikaisemmin. Länsipään yhteys sataman, Kirstinpuiston ja varikon välillä rakennetaan varhaisessa vaiheessa, jotta kaluston testaus ja käyttöönotto voidaan aloittaa ajoissa.\n\nAikataulussa huomioidaan myös kaupungin tapahtumat. Esimerkiksi ydinkeskustan ja Turun linnan aluetta rauhoitetaan rakentamiselta Turun 800-vuotisjuhlallisuuksien aikana.\n\nRakentaminen sisältää samalla laajasti katujen, johtojen ja muun infrastruktuurin uusimista. Osa näistä töistä olisi tehtävä joka tapauksessa lähivuosina.\n\nRakentaminen kestää useita vuosia, mutta työ etenee vaiheittain ja vaikutukset kohdistuvat kerrallaan rajatuille alueille.\n\nEnsimmäisessä kuvassa tehdään Uppsalan valmistelevan vaiheen töitä ja toisessa Pirkkalan rakentamistöitä. Molemmat tulevia uusia ratikkakuntia.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Turun raitiotien toteutussuunnitelma",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Uppsalan valmistelevaa rakentamista",
+        "url": "https://www.uppsala.se/bygga-och-bo/samhallsbyggnad-och-planering/samhallsbyggnad-och-arkitektur/uppsala-sparvag/pagaende-och-planerade-arbeten-for-sparvagen"
+      },
+      {
+        "title": "Pirkkala–Linnainmaa -raitiotie | Tampereen Ratikka",
+        "url": "https://www.tampereenratikka.fi/rakentaminen/pirkkala-linnainmaa"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Onko koko kaupunki seitsemän vuotta työmaana?",
+        "content": "Raitiotien rakentaminen etenee vaiheittain eri puolilla kaupunkia. Työ on jaettu viiteen osaprojektiin, eikä kaikkia katuja rakenneta samaan aikaan."
+      },
+      "en": {
+        "title": "Construction will proceed in stages",
+        "content": "The tram will not be built everywhere at once. Work will move forward in stages, and streets and underground infrastructure that need renewal anyway will be upgraded at the same time."
+      },
+      "sv": {
+        "title": "Byggandet sker stegvis",
+        "content": "Spårvägen byggs inte överallt på en gång. Arbetet framskrider i etapper, och samtidigt förnyas också gator och kommunalteknik som ändå behöver repareras."
+      }
+    }
+  },
+  {
+    "id": 559372797,
+    "number": 68,
+    "longContent": "Raitiovaunu tarjoaa vakaan ja ennakoitavan matkustusympäristön. Vaunut kulkevat kiskoilla ilman äkillisiä suunnanmuutoksia, mikä tekee liikkumisesta tasaista.\n\nÄkillisiä jarrutuksia ja kiihdytyksiä esiintyy vähemmän kuin tieliikenteessä. Tämä vähentää esimerkiksi kaatumisen riskiä ajon aikana.\n\nMatkustaminen on turvallista myös silloin, kun vaunussa liikutaan. Tasainen kulku helpottaa paikoillaan pysymistä ja liikkumista vaunun sisällä.\n\nRaitiovaunut ja pysäkit suunnitellaan esteettömiksi. Vaunu pysähtyy pysäkille aina samalle etäisyydelle, ja vaunut soveltuvat hyvin myös lastenvaunujen, pyörätuolien ja rollaattorien kanssa liikkuville.\n\nPysäkit ja kulku vaunuun ovat selkeitä ja ennalta määrättyjä, mikä tekee matkustamisesta ennakoitavaa myös niille, joille joukkoliikenne ei ole tuttua.\n\nJoukkoliikenne kuuluu tilastojen mukaan turvallisimpiin liikkumismuotoihin. Raideliikenne on ohjattua ja ennakoitavaa, mikä vähentää onnettomuusriskejä.\n\nTurvallisuus ei ole vain tilastoja. Myös koettu turvallisuus on tärkeää, ja siihen vaikuttavat esimerkiksi selkeä ympäristö, hyvä näkyvyys ja matkustamisen ennakoitavuus.\n\nJoukkoliikenteen suunnittelussa pitää huomioida molemmat: todellinen turvallisuus ja matkustajien kokemus turvallisuudesta.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Turvallista matkaa | Tampereen Ratikka",
+        "url": "https://www.tampereenratikka.fi/matkustaminen/turvallista-matkaa"
+      },
+      {
+        "title": "UITP – Why Public Transport Is Key to Achieve the SDGs",
+        "url": "https://www.uitp.org/wp-content/uploads/sites/7/2025/04/20231121_Why-Public-Transport-Is-Key-To-Achieve-The-SDGs_1.0.pdf"
+      },
+      {
+        "title": "UK Department for Transport – Modal comparisons",
+        "url": "https://www.gov.uk/government/publications/transport-statistics-great-britain-guidance/modal-comparisons-notes-and-definitions"
+      },
+      {
+        "title": "Yle - joukkoliikenteen turvallisuus",
+        "url": "https://yle.fi/a/74-20221184"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiovaunussa matkustaminen on turvallista",
+        "content": "Raitiovaunu tarjoaa vakaan ja ennakoitavan matkustusympäristön. Vaunut kulkevat kiskoilla ilman äkillisiä suunnanmuutoksia, mikä tekee liikkumisesta tasaista."
+      },
+      "en": {
+        "title": "A safe way to travel",
+        "content": "Trams run predictably on their own track and stop at clear, accessible stops. Smooth movement, good visibility and accessible design make tram travel safe for different groups of passengers."
+      },
+      "sv": {
+        "title": "Ett tryggt sätt att resa",
+        "content": "Spårvagnar rör sig förutsägbart på egen bana och stannar vid tydliga hållplatser. Jämn gång, god överblick och tillgängliga lösningar gör resandet tryggt för olika användargrupper."
+      }
+    }
+  },
+  {
+    "id": 559253895,
+    "number": 67,
+    "longContent": "Raitiotieliikenne aiheuttaa ääntä, kuten kaikki liikenne. Turun raitiotiehankkeessa meluvaikutuksia on kuitenkin selvitetty etukäteen kattavilla melumallinnuksilla.\n\nSelvityksissä on tarkasteltu raitioliikenteen melua, muun liikenteen melua sekä niiden yhteisvaikutusta. Lisäksi on arvioitu raitiotien tuoma lisäys melutasoon ja mahdolliset hetkelliset enimmäisäänitasot.\n\nMelumallinnuksen mukaan raitiotien meluvaikutukset ovat pääosin vähäisiä. Niillä osuuksilla, joilla raitiotie kulkee muun liikenteen mukana, lisäys melutasoon on tyypillisesti alle 1 dB. Jyrkissä kaarteissa melu voi hetkellisesti kasvaa enemmän.\n\nRaitiotieliikenteen ääni syntyy pääosin pyörän ja kiskon kosketuksesta. Kaarteissa voi esiintyä kaarrekirskuntaa, joka kestää yleensä vain muutamia sekunteja. Runkomelua voidaan hallita radan rakenteilla, kuten eristämällä tärinää maaperästä.\n\nMelua vähennetään käytännössä useilla keinoilla. Kiskoja hiotaan säännöllisesti, voitelua voidaan suorittaa erillisillä voitelulaitteita ja kalustoa sekä rataa huolletaan jatkuvasti. Näitä ratkaisuja käytetään laajasti esimerkiksi Helsingin ja Tampereen raitioteillä. Myös viherrata vähentää melua.\n\nMelumallinnukset perustuvat laskentaan, jossa on huomioitu muun muassa liikennöintinopeudet, maasto, rakennukset ja heijastukset. Tulosten tarkkuus on noin ±3 dB.\n\nOn myös hyvä huomioida, että melua syntyy muustakin liikenteestä. Raskas bussiliikenne aiheuttaa myös ääntä vaikka kalusto olisi sähköistä.\n\nRaitiotien melu ei ole poikkeus, vaan ilmiö, joka tunnetaan hyvin ja johon on käytössä toimivat ratkaisut.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Turun raitiotien meluselvitykset (13 eri asiakirjaa tai liitettä)",
+        "url": "https://turunraitiotie.fi/etusivu/suunnitelmat-ja-selvitykset/ymparisto/#meluselvitys"
+      },
+      {
+        "title": "Turun raitiotien melumallinnus (Sweco)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2025/11/Turun-raitiotie_meluselvitys_liite-1_Sweco-2.pdf"
+      },
+      {
+        "title": "Meluntorjunta pikaraitiolinjan 15 reitillä - Kaupunkiliikenne Oy",
+        "url": "https://kaupunkiliikenne.fi/kaupunkiraidehankkeet-ja-kunnossapito/muut-hankkeet/meluntorjunta-pikaratikka-15-reitilla"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotien melu on hallittavissa",
+        "content": "Raitiotieliikenne aiheuttaa ääntä, kuten kaikki liikenne. Turun raitiotiehankkeessa meluvaikutuksia on kuitenkin selvitetty etukäteen kattavilla melumallinnuksilla."
+      },
+      "en": {
+        "title": "Noise impacts have been studied",
+        "content": "The tram’s noise impacts have been modelled in advance. The increase is generally small, and noise can be reduced through track design and regular maintenance."
+      },
+      "sv": {
+        "title": "Bullret har utretts",
+        "content": "Spårvägens bullereffekter har modellerats på förhand. Ökningen är i allmänhet liten, och buller kan minskas med till exempel banstrukturer och regelbundet underhåll av rälsen."
+      }
+    }
+  },
+  {
+    "id": 559174349,
+    "number": 66,
+    "longContent": "Kupittaan sairaala-alueella liikkuu päivittäin suuri määrä työntekijöitä, potilaita ja omaisia. Sujuva joukkoliikenne helpottaa alueelle saapumista eri puolilta kaupunkia.\n\nKupittaan sairaala-alue on yksi Turun suurimmista työpaikka- ja asiointikohteista, jossa työskentelee tuhansia ihmisiä ja asioi päivittäin suuri määrä kävijöitä.\n\nRaitiotiepysäkki sijoittuu keskeiselle paikalle Kompassisairaalan, Majakkasairaalan, A-sairaalan, Medisiinan ja Dentalian keskelle. Myös T-sairaala sijaitsee lyhyen kävelymatkan päässä Majakkasairaalan sisäänkäynniltä eteenpäin.\n\nTerveyspalvelut ovat keskittyneet alueelle laajemminkin. Mehiläinen ja Pihlajalinna ovat toimineet alueella jo pitkään, ja Terveystalo rakentaa uutta toimipistettä, johon siirtyvät Humalistonkadun palvelut.\n\nSairaala-alueella on rajallisesti pysäköintipaikkoja niin henkilökunnalle kuin muille kävijöille. Kaikki eivät myöskään voi tai halua saapua autolla.\n\nTurun sairaala-alue on eri suunnista hyvin saavutettavissa ja lähellä keskustaa, mutta altis liikenteen ruuhkautumiselle.\n\nSujuvat joukkoliikenneyhteydet helpottavat liikkumista ja vähentävät pysäköintipaikkojen tarvetta. Tämä hyödyttää sekä työntekijöitä että potilaita ja heidän läheisiään.\n\nTampereella raitiotien ensimmäisessä vaiheessa sairaala-alueelle rakennettiin erillinen haara. Turussa sairaala-alue sijoittuu suoraan runkoreitin varrelle.\n\nRaitiotie tuo sairaala-alueelle sujuvan ja kapasiteetiltaan riittävän yhteyden eri puolilta kaupunkia, myös vaihdollisena.\n\nHavainnekuvassa näkyy Keskussairaalan raitiotiepysäkki ja raitiovaunuliikennettä Kiinamyllynkadulla.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Turun raitiotien toteutussuunnitelma (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Turun raitiotien vaikutustenarviointi (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf"
+      },
+      {
+        "title": "Tietoa meistä | Varha",
+        "url": "https://varha.fi/fi/tietoa-meista"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Sairaala-alueelle on päästävä sujuvasti",
+        "content": "Kupittaan sairaala-alueella liikkuu päivittäin suuri määrä työntekijöitä, potilaita ja omaisia. Sujuva joukkoliikenne helpottaa alueelle saapumista eri puolilta kaupunkia."
+      },
+      "en": {
+        "title": "Better access to the hospital area",
+        "content": "The Kupittaa hospital area is one of Turku’s most important destinations. The tram improves access to an area where parking space is limited and traffic is busy."
+      },
+      "sv": {
+        "title": "Bättre förbindelser till sjukhusområdet",
+        "content": "Sjukhusområdet i Kuppis är en av Åbos viktigaste samservicepunkter. Spårvägen förbättrar tillgängligheten till ett område där parkeringsutrymmet är begränsat och trafiken är livlig."
+      }
+    }
+  },
+  {
+    "id": 558987353,
+    "number": 65,
+    "longContent": "Raitiotie on pitkäaikainen investointi. Sekä rata että kalusto suunnitellaan kestämään vuosikymmeniä käytössä.\n\nRaitiovaunut ovat säännöllisesti huollettuna erittäin pitkäikäisiä. Monissa Euroopan kaupungeissa samoilla vaunuilla on liikennöity useita vuosikymmeniä.\n\nMyös Suomessa raitiovaunukalusto on pitkäikäistä. Helsingissä eri-ikäiset vaunut liikennöivät rinnakkain, ja osa kalustosta on ollut käytössä jo yli 40 vuotta.\n\nInfrastruktuuri, kuten kiskot ja sähkörata, vaatii huoltoa ja ajoittaista uusimista. Tämä on kuitenkin tyypillistä kaikille liikennejärjestelmille. Myös bussit, tiet ja muu liikenneinfra edellyttävät jatkuvaa ylläpitoa ja uusimista.\n\nRaitiotien etuna on, että investointi jakautuu pitkälle ajalle. Kun käyttöikä on pitkä, kustannuksia voidaan tarkastella koko elinkaaren näkökulmasta. Siksi myös päätöstä on syytä tarkastella pitkän aikavälin ratkaisuna. Turussa ei tehdä joukkoliikenneratkaisua vain nykytilanteeseen, vaan vuosikymmeniksi eteenpäin.\n\nEnsimmäinen kuva on Oostendestä. Kuvan vaunu on otettu käyttöön 1980-luvun alussa ja sillä liikennöitiin aina vuoden loppuun 2023 asti. Muissa kuvissa näkyy Helsingin eri-ikäistä kalustoa liikenteessä keväällä 2026.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Nivelvaunut/matalalattiainen 71–112 (8-aks) – Suomen Raitiotieseura ry",
+        "url": "https://www.raitio.org/suomen-raitiotiet-ja-raitiovaunut/helsingin-raitiotiet/raitiovaunut-hkl/kalusto/nivelvaunut-matalalattiainen-71-112-8-aks"
+      },
+      {
+        "title": "Turun raitiotien toteutussuunnitelma",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Matalalattiaiset nivelvaunut 401–472 (8-aks) – Suomen Raitiotieseura ry",
+        "url": "https://www.raitio.org/suomen-raitiotiet-ja-raitiovaunut/helsingin-raitiotiet/raitiovaunut-hkl/kalusto/matalalattiaiset-nivelvaunut-401-460-8-aks"
+      },
+      {
+        "title": "KLOY: Moottorivaunut 630–652 – Suomen Raitiotieseura ry",
+        "url": "https://www.raitio.org/metro/helsinki/kalusto/kloy-moottorivaunut-630-652"
+      },
+      {
+        "title": "Coast Tram, car # 6039 — Urban Electric Transit",
+        "url": "https://transphoto.org/vehicle/220503/?lang=en"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie on pitkäikäinen investointi",
+        "content": "Raitiotie on pitkäaikainen investointi. Sekä rata että kalusto suunnitellaan kestämään vuosikymmeniä käytössä."
+      },
+      "en": {
+        "title": "A long lifespan spreads the cost",
+        "content": "The tram is built to last for decades. Its long lifespan means the investment should be assessed over its entire life cycle, not just the initial construction cost."
+      },
+      "sv": {
+        "title": "Lång livslängd jämnar ut kostnaderna",
+        "content": "Spårvägen byggs för att hålla i årtionden. Den långa livslängden betyder att investeringen ska bedömas över hela livscykeln, inte bara utifrån startkostnaden."
+      }
+    }
+  },
+  {
+    "id": 558907508,
+    "number": 64,
+    "longContent": "Raitiotien käyttöä ja vaikutuksia on arvioitu liikennemalleilla ja matkustajamäärälaskelmilla, joita käytetään kaupunkiliikenteen suunnittelussa.\n\nEnnusteet perustuvat nykyiseen liikkumiseen, väestön ja työpaikkojen sijaintiin sekä arvioihin kaupungin kasvusta ja maankäytön kehittymisestä.\n\nLiikenne-ennusteen mukaan raitiotie lisää joukkoliikenteen käyttöä ja kasvattaa matkustajamääriä koko järjestelmässä. Vaikutus ei rajoitu vain yhteen linjaan, vaan näkyy laajemmin koko verkossa.\n\nKokemukset Turusta osoittavat, että kasvu voi olla ennakoitua voimakkaampaa. Runkolinjaston matkustajamääräennusteet raitiotiereitin alueella ovat jääneet alakanttiin, kun uusia alueita kuten Herttuankulma ja Kirstinpuisto on rakennettu.\n\nKasvu lisää tarvetta joukkoliikenteelle joka tapauksessa. Kapasiteettia voidaan lisätä joko lisäämällä nykyisen kaltaista bussiliikennettä tai siirtymällä suuremman kapasiteetin joukkoliikennemuotoon. Kumpikaan ei tapahdu ilman kustannuksia tai vaikutuksia liikenneympäristöön.\n\nItäharjun rakentuminen yhdessä reitin läntisen haaran kasvun kanssa tarkoittaa lisää runkolinjatason liikennettä. Tämä lisäisi bussiliikennettä jo valmiiksi vilkkaasti liikennöidyillä alueilla, kuten keskustassa ja Kupittaalla.\n\nLiikenne- ja matkustajamääräennusteet eivät ole tarkkoja ennustuksia tulevaisuudesta, vaan parhaaseen tietoon perustuvia arvioita päätöksenteon tueksi. Liikennesuunnittelu ei perustu pelkkään reagointiin.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Turun raitiotien liikenne-ennuste",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2025/02/Turun-raitiotien-liikenne-ennuste-%E2%80%93-raportti-04022025.pdf"
+      },
+      {
+        "title": "Turun raitiotien vaikutustenarviointi",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf"
+      },
+      {
+        "title": "Turun raitiotien toteutussuunnitelma",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Turun kaupunki – runkolinjaston matkustajamääriä",
+        "url": "https://paatokset.turku.fi/kaupunginhallitus/poytakirja/5322157/pykala/445"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Liikennettä on mallinnettu etukäteen",
+        "content": "Raitiotien käyttöä ja vaikutuksia on arvioitu liikennemalleilla ja matkustajamäärälaskelmilla, joita käytetään kaupunkiliikenteen suunnittelussa."
+      },
+      "en": {
+        "title": "Forecasts are based on data",
+        "content": "The impacts of the tram are assessed using transport models that take population growth, jobs and land use into account. These forecasts are not guesses, but based on data."
+      },
+      "sv": {
+        "title": "Prognoserna bygger på kunskap",
+        "content": "Spårvägens effekter bedöms med trafikmodeller som beaktar befolkningstillväxt, arbetsplatser och markanvändning. Prognoserna är inte gissningar, utan bygger på data."
+      }
+    }
+  },
+  {
+    "id": 558583681,
+    "number": 63,
+    "longContent": "Turku on noin 40 000 opiskelijan kaupunki. Suuri opiskelijamäärä tekee oppilaitoksista merkittäviä joukkoliikenteen käyttäjiä.\n\nTurun ammattikorkeakoulussa opiskelee yli 12 000 opiskelijaa ja työskentelee lähes 900 ihmistä. Sen suurin kampus sijaitsee Kupittaalla Joukahaisenkadulla aivan suunnitellun raitiotiepysäkin vieressä.\n\nYrkeshögskolan Novia on Suomen suurin ruotsinkielinen ammattikorkeakoulu. Turussa sen toimipisteet sijaitsevat Piispankadulla ja Juhana Herttuan puistokadulla, molemmat raitiotiereitin varrella.\n\nTurussa toimii myös Humanistinen ammattikorkeakoulu Humak, jonka kampus siirtyy syksyksi 2026 raitiotiereitin alueelle.\n\nRaitiotie yhdistää kampuksia toisiinsa ja muuhun kaupunkiin. Se helpottaa opiskelijoiden ja henkilökunnan päivittäistä liikkumista sekä tekee kampuksista saavutettavampia.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Study in Turku -info | Turku.fi",
+        "url": "https://www.turku.fi/opiskelijakaupunki/study-turku-info"
+      },
+      {
+        "title": "Avaintiedot - Turku AMK",
+        "url": "https://www.turkuamk.fi/turun-amk/avainluvut"
+      },
+      {
+        "title": "Novia AMK  » novia.fi",
+        "url": "https://www.novia.fi/fi"
+      },
+      {
+        "title": "Uutiset ja tiedot - Humak",
+        "url": "https://www.humak.fi/info"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie palvelee ammattikorkeakouluja",
+        "content": "Turku on noin 40 000 opiskelijan kaupunki. Suuri opiskelijamäärä tekee oppilaitoksista merkittäviä joukkoliikenteen käyttäjiä."
+      },
+      "en": {
+        "title": "Easier journeys for students",
+        "content": "Turku has around 40,000 students. The tram will serve key higher education campuses and make it easier to travel between them and the rest of the city."
+      },
+      "sv": {
+        "title": "Smidigare för studerande",
+        "content": "Åbo har cirka 40 000 studerande. Spårvägen går via flera högskolor och gör det lättare att röra sig mellan campusområdena och resten av staden."
+      }
+    }
+  },
+  {
+    "id": 558483771,
+    "number": 62,
+    "longContent": "Itäharju on osa Turun tiedepuiston kehittämisaluetta, jonne on visioitu jopa 18 000 työpaikkaa ja 16 000 asukasta. Vaikka tästä toteutuisi vain osa, on kyse erittäin suuresta muutoksesta nykytilanteeseen.\n\nAlueen kehitys on jo alkamassa. Kupittaan kärjen infrarakentaminen on aloitettu, ja havainnekuvissa näkyvän Taito-kampuksen toteuttamisesta on tehty päätös.\n\nAlueen käyttöönottoon liittyviä kustannuksia syntyy joka tapauksessa. Esimerkiksi pilaantuneen maan käsittely on tehtävä riippumatta rakentamisen määrästä, jos tontteja halutaan ottaa käyttöön. Mitä enemmän rakentamista alueelle sijoittuu, sitä paremmin investoinnit maksavat itseään takaisin.\n\nNäin suuri määrä uusia asukkaita ja työpaikkoja edellyttää toimivaa joukkoliikennettä. Alue ei voi tukeutua pelkästään nykyiseen bussiliikenteeseen, kuten Kalevantietä kulkevaan runkolinjaan 3, joka on jo nykyisin hyvin kuormitettu. Raitiotiellä voidaan samaan aikaan vastata runkolinjan 3 kysyntään ja tuleviin Itäharjun tarpeisiin.\n\nRaitiotien on arvioitu mahdollistavan ja houkuttelevan enemmän rakentamista. Hyvät ja kapasiteetiltaan riittävät joukkoliikenneyhteydet tekevät alueesta saavutettavan ilman, että liikenne perustuu pääosin henkilöautoihin.\n\nKokemukset muista raitiotiekaupungeista osoittavat, että tyhjien alueiden rakentuminen raitiotiereittien varrella on usein ollut nopeampaa ja voimakkaampaa kuin alun perin on arvioitu.\n\nRaitiotie ei siis ole vain liikenneratkaisu, vaan tärkeä osa Itäharjun kehittämistä. Kuvissa näkymä säilyvältä Mikkolanmäeltä kohti rakentuvaa aluetta sekä raitiotiereitiksi muuttuva Voimakatu.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Turun Tiedepuisto",
+        "url": "https://turuntiedepuisto.fi/turun-tiedepuisto/visio-ja-dna"
+      },
+      {
+        "title": "Turun raitiotien toteutussuunnitelma (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Turun raitiotien vaikutustenarviointi (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Itäharjun kasvu edellyttää vahvaa joukkoliikennettä",
+        "content": "Itäharju on osa Turun tiedepuiston kehittämisaluetta, jonne on visioitu jopa 18 000 työpaikkaa ja 16 000 asukasta. Vaikka tästä toteutuisi vain osa, on kyse erittäin suuresta muutoksesta nykytilanteeseen."
+      },
+      "en": {
+        "title": "Growth in Itäharju requires strong public transport",
+        "content": "Significant infill development is planned in Itäharju. As the number of residents and jobs grows, efficient public transport is needed so that everyday travel does not rely mainly on cars."
+      },
+      "sv": {
+        "title": "Österås tillväxt kräver stark kollektivtrafik",
+        "content": "I Österås planeras omfattande kompletterande byggande. När antalet invånare och arbetsplatser ökar behövs effektiv kollektivtrafik, så att trafiken inte i första hand bygger på privatbilism."
+      }
+    }
+  },
+  {
+    "id": 558133419,
+    "number": 61,
+    "longContent": "Raitiotien rakentamisen yhteydessä katuja uudistetaan kokonaisvaltaisesti. Samalla parannetaan pyöräilyn olosuhteita koko reitin varrella ja lähikaduilla.\n\nKäytännössä tämä tarkoittaa uusia ja selkeämpiä pyöräilyjärjestelyjä, turvallisempia risteyksiä sekä jatkuvampia ja loogisempia reittejä. Liikkuminen helpottuu, kun reitit eivät katkea ja ympäristö on johdonmukainen.\n\nPyöräilylle varataan pääosin omat väylät, jolloin raiteiden yli kuljetaan hallituissa ylityskohdissa eikä niiden suuntaisesti. Tämä parantaa turvallisuutta erityisesti risteysalueilla. Alustavat katusuunnitelmat on jo julkaistu.\n\nPerinteisten polkupyörien lisäksi pyöräteillä käytetään monia muita kulkuvälineitä: suurempia kuormapyöriä, kevyitä sähköskoottereita ja sähköpotkulautoja. Selkeä ja riittävän väljä pyöräilyinfra sekä erilliset yksisuuntaiset väylät parantavat turvallisuutta kaikkien liikkujien kannalta.\n\nRaitiotieprojekti mahdollistaa muutoksia, joita olisi vaikea toteuttaa yksittäisinä hankkeina. Koko katuympäristö voidaan suunnitella uudelleen kerralla.\n\nTämän vuoksi raitiotie on todennäköisesti Turun laajin pyöräilyolosuhteita edistävä hanke. Toteutuessaan hankkeelle saadaan lisäksi valtion tukea, mikä ei esimerkiksi runkolinjastoon tukeutuvassa ratkaisussa ole samalla tavalla mahdollista.\n\nRaitiotie tukee myös kaupunkipyöräjärjestelmää ja toisin päin. Fölläriasemia voidaan sijoittaa pysäkkien läheisyyteen, jolloin matkaa voi jatkaa sujuvasti myös pyörällä.",
+    "link": "https://linktr.ee/sataratikkafaktaa",
+    "resources": [
+      {
+        "title": "Alustavat katusuunnitelmat - Turun raitiotie",
+        "url": "https://turunraitiotie.fi/etusivu/suunnitelmat-ja-selvitykset/alustavat-katusuunnitelmat"
+      },
+      {
+        "title": "Turun raitiotien toteutussuunnitelma (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Turun-raitiotien-toteutussuunnitema_fi_turun-raitiotie.pdf"
+      },
+      {
+        "title": "Turun raitiotien vaikutustenarviointi (2026)",
+        "url": "https://turunraitiotie.fi/wp-content/uploads/2026/01/Raitiotien-satama-Varissuo-vaikutustenarviointi-yhteenvetoraportti-tammikuu-2026.pdf"
+      },
+      {
+        "title": "Föllärit  | Föli",
+        "url": "https://www.foli.fi/fi/f%C3%B6ll%C3%A4rit"
+      }
+    ],
+    "translations": {
+      "fi": {
+        "title": "Raitiotie on suuri investointi pyöräilyyn",
+        "content": "Suuri pyöräilyhanke"
+      },
+      "en": {
+        "title": "Better conditions for cycling",
+        "content": "When the tram is built, the entire street environment will be renewed. At the same time, cycling routes will become clearer, more continuous and safer at intersections."
+      },
+      "sv": {
+        "title": "Bättre för cyklister",
+        "content": "När spårvägen byggs förnyas gatumiljön som helhet. Samtidigt skapas tydligare och mer sammanhängande cykelvägar samt tryggare korsningar."
+      }
+    }
+  },
+  {
     "id": 557883025,
     "number": 60,
     "longContent": "Raitiotie kulkee selkeää ja pysyvää reittiä pitkin. Kiskot näkyvät katukuvassa, ja linja on helppo tunnistaa sekä kartalla että ympäristössä. Reitin pysyvyys tekee liikkumisesta ennakoitavaa.\n\nSuuret raitiovaunut on myös helppo havaita liikenteessä, ja niiden kulku kiskoja pitkin on ennakoitavaa. Raitiotie kulkee joka kerta täsmälleen samasta kohdasta.\n\nTämä on tärkeää erityisesti niille, joille joukkoliikenne ei ole tuttua. Selkeä reitti helpottaa matkustamista esimerkiksi lapsille, ikääntyneille, vieraassa kaupungissa liikkuville sekä hahmottamisen tai suunnistamisen kanssa haasteita kokeville.\n\nHelppo hahmotettavuus on yksi tekijä, joka lisää raitiotien käyttöä. Muita tekijöitä ovat esimerkiksi suuri kapasiteetti, tasainen kulku, hyvä täsmällisyys ja selkeä pysäkkijärjestelmä.\n\nMyös pysäkkien opastukseen panostetaan. Pysäkit merkitään selkeästi, ja matkustajainformaatio suunnitellaan helposti ymmärrettäväksi.\n\nRaitiotie ei siis ole vain kulkuväline, vaan myös helposti käytettävä osa kaupunkia.\n\nKuvissa raitiotieympäristöä Tallinnassa ja Vila Nova de Gaiassa.",
