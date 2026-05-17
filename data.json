@@ -28,12 +28,12 @@
         "content": "Turun vanha raitiotieverkko rakennettiin aikana, jolloin kaupunki, liikkuminen ja joukkoliikenne toimivat hyvin eri tavalla kuin nykyään."
       },
       "en": {
-        "title": "Turku ei ole yksin",
-        "content": "Turun vanha raitiotieverkko rakennettiin aikana, jolloin kaupunki, liikkuminen ja joukkoliikenne toimivat hyvin eri tavalla kuin nykyään."
+        "title": "Trams have returned to many cities",
+        "content": "Many European cities removed their tram systems during the rise of car traffic, but later re-introduced modern tramways to meet changing mobility needs. Turku is not alone."
       },
       "sv": {
-        "title": "Turku ei ole yksin",
-        "content": "Turun vanha raitiotieverkko rakennettiin aikana, jolloin kaupunki, liikkuminen ja joukkoliikenne toimivat hyvin eri tavalla kuin nykyään."
+        "title": "Spårvägen har återvänt till många städer",
+        "content": "Många europeiska städer avvecklade sina spårvägar under bilismens genombrott, men har senare byggt moderna spårvägar på nytt. Åbo är inte ensamt."
       }
     }
   },
@@ -66,12 +66,12 @@
         "content": "Raitiotie olisi Turulle suuri investointi, mutta ei poikkeuksellinen suhteessa kaupungin kokoon tai pitkän aikavälin talouteen. Arvioiden mukaan hanke kasvattaisi kaupungin seuraavan kymmenen vuoden investointimenoja noin 10,5 prosentilla."
       },
       "en": {
-        "title": "Hallittava investointi",
-        "content": "Raitiotie olisi Turulle suuri investointi, mutta ei poikkeuksellinen suhteessa kaupungin kokoon tai pitkän aikavälin talouteen. Arvioiden mukaan hanke kasvattaisi kaupungin seuraavan kymmenen vuoden investointimenoja noin 10,5 prosentilla."
+        "title": "The tramway is a large but manageable investment",
+        "content": "The project is intended to support long-term urban growth, jobs and investment. Relative to the size of Turku, the investment is not exceptional."
       },
       "sv": {
-        "title": "Hallittava investointi",
-        "content": "Raitiotie olisi Turulle suuri investointi, mutta ei poikkeuksellinen suhteessa kaupungin kokoon tai pitkän aikavälin talouteen. Arvioiden mukaan hanke kasvattaisi kaupungin seuraavan kymmenen vuoden investointimenoja noin 10,5 prosentilla."
+        "title": "Spårvägen är en stor men hanterbar investering",
+        "content": "Det handlar om ett långsiktigt stadsutvecklingsprojekt som ska stöda tillväxt, arbetsplatser och investeringar. I förhållande till Åbos storlek är investeringen inte exceptionell."
       }
     }
   },
@@ -96,12 +96,12 @@
         "content": "Turun raitiotien ensimmäistä linjaa on arvioitu yleissuunnitelmissa ja vaikutusarvioissa yli kymmenen vuoden ajan. Ensimmäisen yleissuunnitelman aikaan vuonna 2015 Turussa oli noin 184 000 asukasta, ja asukasmäärän arvioitiin ylittävän 210 000 rajan vuonna 2035. Raja ylittyi tänä vuonna."
       },
       "en": {
-        "title": "Reitin valinta",
-        "content": "Turun raitiotien ensimmäistä linjaa on arvioitu yleissuunnitelmissa ja vaikutusarvioissa yli kymmenen vuoden ajan. Ensimmäisen yleissuunnitelman aikaan vuonna 2015 Turussa oli noin 184 000 asukasta, ja asukasmäärän arvioitiin ylittävän 210 000 rajan vuonna 2035. Raja ylittyi tänä vuonna."
+        "title": "The route is the result of long-term planning",
+        "content": "The first tram line has been studied for more than ten years. The current route connects the city centre, Turku Science Park, the harbour, the hospital area and major residential districts."
       },
       "sv": {
-        "title": "Reitin valinta",
-        "content": "Turun raitiotien ensimmäistä linjaa on arvioitu yleissuunnitelmissa ja vaikutusarvioissa yli kymmenen vuoden ajan. Ensimmäisen yleissuunnitelman aikaan vuonna 2015 Turussa oli noin 184 000 asukasta, ja asukasmäärän arvioitiin ylittävän 210 000 rajan vuonna 2035. Raja ylittyi tänä vuonna."
+        "title": "Ruttvalet är resultatet av lång planering",
+        "content": "Den första linjen har utretts i över tio år. Den nuvarande rutten binder samman centrum, Vetenskapsparken, hamnen, sjukhusområdet och stora bostadsområden."
       }
     }
   },
@@ -126,12 +126,12 @@
         "content": "Turun raitiotien vaikutuksia tarkastellaan niin sanotulla vaikutusalueella, eli alueella joka sijaitsee noin 800 metrin etäisyydellä pysäkeistä."
       },
       "en": {
-        "title": "Kasvava asukasmäärä",
-        "content": "Turun raitiotien vaikutuksia tarkastellaan niin sanotulla vaikutusalueella, eli alueella joka sijaitsee noin 800 metrin etäisyydellä pysäkeistä."
+        "title": "A growing Turku needs effective public transport",
+        "content": "Already today, about one third of Turku residents live within the tramway corridor. As the city grows, more people are expected to live close to the planned tram route."
       },
       "sv": {
-        "title": "Kasvava asukasmäärä",
-        "content": "Turun raitiotien vaikutuksia tarkastellaan niin sanotulla vaikutusalueella, eli alueella joka sijaitsee noin 800 metrin etäisyydellä pysäkeistä."
+        "title": "Ett växande Åbo behöver fungerande kollektivtrafik",
+        "content": "Redan nu bor ungefär en tredjedel av Åboborna inom spårvägens influensområde. När staden växer väntas allt fler bo nära kollektivtrafiken."
       }
     }
   },
@@ -160,12 +160,12 @@
         "content": "Raitiotiehankkeeseen liittyy riskejä kuten kustannusten nousua, rakentamisen haittoja, aikataulumuutoksia ja liikennevaikutuksia. Näitä pyritään hallitsemaan vaiheittaisella suunnittelulla ja allianssimallilla. Suomessa allianssimallilla toteutetut raitiotiehankkeet ovat pysyneet hyvin aikatauluissa ja kustannusraameissa. Sitovaan toteutushintaan sisältyy myös riskivarauksia."
       },
       "en": {
-        "title": "Riskit",
-        "content": "Raitiotiehankkeeseen liittyy riskejä kuten kustannusten nousua, rakentamisen haittoja, aikataulumuutoksia ja liikennevaikutuksia. Näitä pyritään hallitsemaan vaiheittaisella suunnittelulla ja allianssimallilla. Suomessa allianssimallilla toteutetut raitiotiehankkeet ovat pysyneet hyvin aikatauluissa ja kustannusraameissa. Sitovaan toteutushintaan sisältyy myös riskivarauksia."
+        "title": "Alternatives also involve risks",
+        "content": "The risks of the tramway have been studied extensively, but bus-based alternatives also involve uncertainty. Internationally, major bus projects have exceeded cost estimates."
       },
       "sv": {
-        "title": "Riskit",
-        "content": "Raitiotiehankkeeseen liittyy riskejä kuten kustannusten nousua, rakentamisen haittoja, aikataulumuutoksia ja liikennevaikutuksia. Näitä pyritään hallitsemaan vaiheittaisella suunnittelulla ja allianssimallilla. Suomessa allianssimallilla toteutetut raitiotiehankkeet ovat pysyneet hyvin aikatauluissa ja kustannusraameissa. Sitovaan toteutushintaan sisältyy myös riskivarauksia."
+        "title": "Också alternativen innebär risker",
+        "content": "Spårvägens risker har bedömts omfattande, men också bussalternativen innehåller osäkerheter. Internationellt har kostnaderna stigit i stora bussprojekt."
       }
     }
   },
@@ -194,12 +194,12 @@
         "content": "Raitiotien liikennöinti maksaa enemmän kuin bussilinjan, mutta samalla myös välityskyky kasvaa ja palvelutaso paranee. Raitiotie mahdollistaa tasaisemman liikennöinnin ja matkustajamäärien kasvun."
       },
       "en": {
-        "title": "Liikennöintikustannukset",
-        "content": "Raitiotien liikennöinti maksaa enemmän kuin bussilinjan, mutta samalla myös välityskyky kasvaa ja palvelutaso paranee. Raitiotie mahdollistaa tasaisemman liikennöinnin ja matkustajamäärien kasvun."
+        "title": "Operating costs are only part of the picture",
+        "content": "Trams cost more to operate than buses, but they also provide much higher capacity and can move more people within the same area."
       },
       "sv": {
-        "title": "Liikennöintikustannukset",
-        "content": "Raitiotien liikennöinti maksaa enemmän kuin bussilinjan, mutta samalla myös välityskyky kasvaa ja palvelutaso paranee. Raitiotie mahdollistaa tasaisemman liikennöinnin ja matkustajamäärien kasvun."
+        "title": "Trafikeringskostnaderna är bara en del av helheten",
+        "content": "Spårvägen kostar mer att driva än busstrafik, men samtidigt ökar kapaciteten och fler människor kan transporteras inom samma område."
       }
     }
   },
@@ -232,12 +232,12 @@
         "content": "Raitiotie ei poista autoilua Turusta. Myös tulevaisuudessa moni liikkuu autolla, ja toimiva liikennejärjestelmä tarvitsee useita eri kulkutapoja. Raitiovaunuilla hoidetaan kuormitetuinta liikennettä, busseilla täydentävää joukkoliikennettä ja autoilla joustavuutta vaativia matkoja."
       },
       "en": {
-        "title": "Autoilun määrä",
-        "content": "Raitiotie ei poista autoilua Turusta. Myös tulevaisuudessa moni liikkuu autolla, ja toimiva liikennejärjestelmä tarvitsee useita eri kulkutapoja. Raitiovaunuilla hoidetaan kuormitetuinta liikennettä, busseilla täydentävää joukkoliikennettä ja autoilla joustavuutta vaativia matkoja."
+        "title": "The project also renews infrastructure for cars",
+        "content": "The tramway will not remove car traffic, but the project also includes new traffic lanes, clearer street arrangements and improved traffic safety."
       },
       "sv": {
-        "title": "Autoilun määrä",
-        "content": "Raitiotie ei poista autoilua Turusta. Myös tulevaisuudessa moni liikkuu autolla, ja toimiva liikennejärjestelmä tarvitsee useita eri kulkutapoja. Raitiovaunuilla hoidetaan kuormitetuinta liikennettä, busseilla täydentävää joukkoliikennettä ja autoilla joustavuutta vaativia matkoja."
+        "title": "Projektet förnyar också infrastrukturen för biltrafiken",
+        "content": "Spårvägen tar inte bort biltrafiken, men projektet omfattar också nya körfält, tydligare trafikarrangemang och bättre trafiksäkerhet."
       }
     }
   },
@@ -270,12 +270,12 @@
         "content": "Katutila on rajallinen erityisesti ruuhka-aikoina, jolloin mahdollisimman monen pitäisi päästä liikkumaan samaan aikaan. Silloin ratkaisevaa ei ole vain ajoneuvojen määrä, vaan se kuinka paljon ihmisiä eri liikennevälineet pystyvät kuljettamaan."
       },
       "en": {
-        "title": "Tilatehokkuus",
-        "content": "Katutila on rajallinen erityisesti ruuhka-aikoina, jolloin mahdollisimman monen pitäisi päästä liikkumaan samaan aikaan. Silloin ratkaisevaa ei ole vain ajoneuvojen määrä, vaan se kuinka paljon ihmisiä eri liikennevälineet pystyvät kuljettamaan."
+        "title": "A tram moves many people in limited space",
+        "content": "During rush hour, the key issue is not the number of vehicles but the number of people moving. One tram can carry hundreds of passengers using the same street space."
       },
       "sv": {
-        "title": "Tilatehokkuus",
-        "content": "Katutila on rajallinen erityisesti ruuhka-aikoina, jolloin mahdollisimman monen pitäisi päästä liikkumaan samaan aikaan. Silloin ratkaisevaa ei ole vain ajoneuvojen määrä, vaan se kuinka paljon ihmisiä eri liikennevälineet pystyvät kuljettamaan."
+        "title": "Spårvägen transporterar många människor på liten yta",
+        "content": "Under rusningstid är det antalet människor, inte antalet fordon, som är avgörande. En spårvagn kan transportera hundratals passagerare på samma gatuutrymme."
       }
     }
   },
@@ -308,12 +308,12 @@
         "content": "Raitiotie palvelee Turun Tiedepuiston työpaikkoja ja yrityksiä"
       },
       "en": {
-        "title": "Turun Tiedepuisto",
-        "content": "Raitiotie palvelee Turun Tiedepuiston työpaikkoja ja yrityksiä"
+        "title": "Turku Science Park needs efficient public transport",
+        "content": "The growing area around Kupittaa, Itäharju, the universities and the hospital needs efficient connections to the city centre and the rest of Turku."
       },
       "sv": {
-        "title": "Turun Tiedepuisto",
-        "content": "Raitiotie palvelee Turun Tiedepuiston työpaikkoja ja yrityksiä"
+        "title": "Vetenskapsparken behöver fungerande kollektivtrafik",
+        "content": "Det växande området kring Kuppis, Österås, universiteten och sjukhuset behöver effektiva förbindelser till centrum och resten av staden."
       }
     }
   },
@@ -350,12 +350,12 @@
         "content": "Rakentamisen aikana työmaat, melu ja muuttuvat kulkureitit voivat aiheuttaa paikallisia haittoja erityisesti pienille yrityksille. Tätä nähtiin myös Tampereella ratikan rakentamisen aikana."
       },
       "en": {
-        "title": "Yrityselämä",
-        "content": "Rakentamisen aikana työmaat, melu ja muuttuvat kulkureitit voivat aiheuttaa paikallisia haittoja erityisesti pienille yrityksille. Tätä nähtiin myös Tampereella ratikan rakentamisen aikana."
+        "title": "Supports local businesses in the long run",
+        "content": "Construction causes temporary disruption, but in the long term better public transport can improve accessibility, customer flows and the attractiveness of areas for businesses."
       },
       "sv": {
-        "title": "Yrityselämä",
-        "content": "Rakentamisen aikana työmaat, melu ja muuttuvat kulkureitit voivat aiheuttaa paikallisia haittoja erityisesti pienille yrityksille. Tätä nähtiin myös Tampereella ratikan rakentamisen aikana."
+        "title": "Stöder företagslivet på lång sikt",
+        "content": "Byggandet orsakar tillfälliga störningar, men på längre sikt kan god kollektivtrafik förbättra tillgängligheten, kundflödena och områdenas attraktionskraft för företag."
       }
     }
   },
